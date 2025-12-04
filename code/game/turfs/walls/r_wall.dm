@@ -79,6 +79,9 @@
 	base_icon_state = "rwall"
 	icon_state = "wall-reinforced"
 
+/turf/closed/wall/r_wall/prison/yellow
+	icon = 'icons/turf/walls/gorg_prison_rwall_two_yellow.dmi'
+
 /turf/closed/wall/r_wall/prison_unmeltable
 	name = "heavy reinforced wall"
 	desc = "A huge chunk of ultra-reinforced metal used to seperate rooms. Looks virtually indestructible."
@@ -87,6 +90,9 @@
 	walltype = "rwall"
 	resistance_flags = RESIST_ALL
 	base_icon_state = "rwall"
+
+/turf/closed/wall/r_wall/prison_unmeltable/yellow
+	icon = 'icons/turf/walls/gorg_prison_rwall_two_yellow.dmi'
 
 /turf/closed/wall/r_wall/prison_unmeltable/ex_act(severity) //Should make it indestructable
 	return

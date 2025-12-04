@@ -381,7 +381,8 @@ INITIALIZE_IMMEDIATE(/turf/closed/wall/indestructible/splashscreen)
 	walltype = "metal"
 	base_icon_state = "metal"
 
-
+/turf/closed/wall/prison/yellow
+	icon = 'icons/turf/walls/gorg_prison_wall_two_yellow.dmi'
 
 //Wood wall
 
