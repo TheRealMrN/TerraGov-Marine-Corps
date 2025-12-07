@@ -34,6 +34,8 @@
 
 #define COMSIG_GLOB_SHIP_SELF_DESTRUCT_ACTIVATED "!ship_self_destruct_activated"
 
+#define COMSIG_GLOB_SILOLESS_COLLAPSE "!siloless_collapse"
+
 /// from /obj/machinery/setAnchored(): (machine, anchoredstate)
 #define COMSIG_GLOB_MACHINERY_ANCHORED_CHANGE "!machinery_anchored_change"
 /// called after a successful var edit somewhere in the world: (list/args)
@@ -587,6 +589,8 @@
 
 #define COMSIG_ARMORED_FIRE "armored_fire"
 #define COMSIG_ARMORED_STOP_FIRE "armored_stop_fire"
+
+#define COMSIG_ARMORED_DO_EXTRACT "armored_do_extract"
 
 // /obj/item/clothing signals
 #define COMSIG_SHOES_STEP_ACTION "shoes_step_action"			//from base of obj/item/clothing/shoes/proc/step_action(): ()
