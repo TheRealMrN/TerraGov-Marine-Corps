@@ -317,3 +317,129 @@
 
 /obj/effect/turf_decal/tape/atmos/door/damaged
 	icon_state = "atmos_door_c"
+
+////////////////STENCILS////////////////////
+/obj/effect/turf_decal/stencil/letter_a
+	icon_state = "letter_a"
+
+/obj/effect/turf_decal/stencil/letter_b
+	icon_state = "letter_b"
+
+/obj/effect/turf_decal/stencil/letter_c
+	icon_state = "letter_c"
+
+/obj/effect/turf_decal/stencil/letter_d
+	icon_state = "letter_d"
+
+/obj/effect/turf_decal/stencil/letter_e
+	icon_state = "letter_e"
+
+/obj/effect/turf_decal/stencil/letter_f
+	icon_state = "letter_f"
+
+/obj/effect/turf_decal/stencil/letter_g
+	icon_state = "letter_g"
+
+/obj/effect/turf_decal/stencil/letter_h
+	icon_state = "letter_h"
+
+/obj/effect/turf_decal/stencil/letter_i
+	icon_state = "letter_i"
+
+/obj/effect/turf_decal/stencil/letter_j
+	icon_state = "letter_j"
+
+/obj/effect/turf_decal/stencil/letter_k
+	icon_state = "letter_k"
+
+/obj/effect/turf_decal/stencil/letter_l
+	icon_state = "letter_l"
+
+/obj/effect/turf_decal/stencil/letter_m
+	icon_state = "letter_m"
+
+/obj/effect/turf_decal/stencil/letter_n
+	icon_state = "letter_n"
+
+/obj/effect/turf_decal/stencil/letter_o
+	icon_state = "letter_o"
+
+/obj/effect/turf_decal/stencil/letter_p
+	icon_state = "letter_p"
+
+/obj/effect/turf_decal/stencil/letter_q
+	icon_state = "letter_q"
+
+/obj/effect/turf_decal/stencil/letter_r
+	icon_state = "letter_r"
+
+/obj/effect/turf_decal/stencil/letter_s
+	icon_state = "letter_s"
+
+/obj/effect/turf_decal/stencil/letter_t
+	icon_state = "letter_t"
+
+/obj/effect/turf_decal/stencil/letter_u
+	icon_state = "letter_u"
+
+/obj/effect/turf_decal/stencil/letter_v
+	icon_state = "letter_v"
+
+/obj/effect/turf_decal/stencil/letter_w
+	icon_state = "letter_w"
+
+/obj/effect/turf_decal/stencil/letter_x
+	icon_state = "letter_x"
+
+/obj/effect/turf_decal/stencil/letter_y
+	icon_state = "letter_y"
+
+/obj/effect/turf_decal/stencil/letter_z
+	icon_state = "letter_z"
+
+/obj/effect/turf_decal/stencil/number_0
+	icon_state = "number_0"
+
+/obj/effect/turf_decal/stencil/number_1
+	icon_state = "number_1"
+
+/obj/effect/turf_decal/stencil/number_2
+	icon_state = "number_2"
+
+/obj/effect/turf_decal/stencil/number_3
+	icon_state = "number_3"
+
+/obj/effect/turf_decal/stencil/number_4
+	icon_state = "number_4"
+
+/obj/effect/turf_decal/stencil/number_5
+	icon_state = "number_5"
+
+/obj/effect/turf_decal/stencil/number_6
+	icon_state = "number_6"
+
+/obj/effect/turf_decal/stencil/number_7
+	icon_state = "number_7"
+
+/obj/effect/turf_decal/stencil/number_8
+	icon_state = "number_8"
+
+/obj/effect/turf_decal/stencil/number_9
+	icon_state = "number_9"
+
+/obj/effect/turf_decal/stencil/mark_exlaimation
+	icon_state = "mark_exclaimation"
+
+/obj/effect/turf_decal/stencil/mark_question
+	icon_state = "mark_question"
+
+/obj/effect/turf_decal/stencil/mark_dot
+	icon_state = "mark_point"
+
+/obj/effect/turf_decal/stencil/mark_comma
+	icon_state = "mark_comma"
+
+/obj/effect/turf_decal/stencil/mark_apostrophe
+	icon_state = "mark_apostrophe"
+
+////////////////STENCILS////////////////////
