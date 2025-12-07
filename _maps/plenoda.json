@@ -1,0 +1,15 @@
+{
+    "map_name": "Plenoda Recreational Center",
+    "map_path": "map_files/plenoda",
+    "map_file": "plenoda.dmm",
+	"disk_sets": {
+		"basic": 1
+	},
+	"quickbuilds": 2500,
+	"armor": "prison",
+	"announce_text": "A recreational station in the nearby star system has sent out a distress signal after a collision with a small meteor. The survivors have managed to lock down the upper floors of the station, making them safe, but the lower floors are still infested with a hostile alien species. TGMC, prepare for deployment!",
+	"traits":[{
+		"Baseturf": "/turf/open/floor/plating",
+		"No Parallax": true
+	}]
+}
