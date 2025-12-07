@@ -179,9 +179,15 @@
 	basestate = "col_rwindow_frame"
 	base_icon_state = "col_rwindow_frame"
 
+/obj/structure/windor_frame/prison/yellow
+	icon = 'icons/obj/smooth_objects/prison_rwindow_frame_yellow.dmi'
+
 /obj/structure/window_frame/prison/reinforced
 	reinforced = TRUE
 	max_integrity = 300
+
+/obj/structure/window_frame/prison/reinforced/yellow
+	icon = 'icons/obj/smooth_objects/prison_rwindow_frame_yellow.dmi'
 
 /obj/structure/window_frame/prison/hull
 	climbable = FALSE

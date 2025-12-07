@@ -1,8 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
-/obj/structure/prop/urban/misc/buildinggreeblies/dense{
-	pixel_w = 16
-	},
+/obj/structure/prop/urban/misc/buildinggreeblies/dense,
 /turf/open/floor/prison/plate,
 /area/space)
 "aw" = (
@@ -10,11 +8,23 @@
 /turf/open/openspace,
 /area/space)
 "aR" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/line{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner{
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
 	dir = 4
+	},
+/turf/open/floor/prison/plate,
+/area/space)
+"bf" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner,
+/obj/effect/turf_decal/stencil/letter_e{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_n,
+/obj/effect/turf_decal/stencil/letter_t{
+	pixel_w = 10
 	},
 /turf/open/floor/prison/plate,
 /area/space)
@@ -33,12 +43,22 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/space)
-"bw" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/warning{
-	dir = 8
+"bx" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stencil/letter_o{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_n,
+/obj/effect/turf_decal/stencil/letter_t{
+	pixel_w = 10
 	},
 /turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
+/area/space)
 "bV" = (
 /turf/closed/wall/mainship/white,
 /area/space)
@@ -48,8 +68,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
+"cA" = (
+/obj/structure/window/framed/prison/reinforced,
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "cM" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+/obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 4
 	},
 /turf/open/floor/prison/plate,
@@ -77,7 +101,9 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/space)
 "dD" = (
-/obj/structure/prop/urban/misc/buildinggreeblies/greeble1,
+/obj/structure/prop/urban/misc/buildinggreeblies/greeble1{
+	pixel_w = -5
+	},
 /turf/open/floor/prison/plate,
 /area/space)
 "dS" = (
@@ -86,16 +112,18 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
-"eh" = (
-/obj/machinery/power/apc,
-/turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
-"ex" = (
-/obj/machinery/door/poddoor/mainship/indestructible{
-	dir = 2
+"et" = (
+/obj/effect/turf_decal/trimline/purple/filled/shrink_ccw{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stencil/letter_t{
+	pixel_w = -10
 	},
 /turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
+/area/space)
 "eC" = (
 /obj/effect/spawner/random/misc/structure/supplycrate/secure_supplies,
 /turf/open/floor/prison/plate,
@@ -160,12 +188,8 @@
 	},
 /area/space)
 "gq" = (
-/obj/structure/prop/urban/airport/refuelinghose2{
-	pixel_w = -5;
-	pixel_z = -10
-	},
-/turf/open/floor/prison/plate,
-/area/space)
+/turf/open/floor/plating,
+/area/corsat/dropzone/landingzoneone)
 "gt" = (
 /obj/structure/reagent_dispensers/fueltank/spacefuel,
 /turf/open/floor/plating,
@@ -214,12 +238,6 @@
 /obj/structure/foamedmetal,
 /turf/open/floor/prison/plate,
 /area/space)
-"iN" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 8
-	},
-/turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
 "iS" = (
 /turf/open/floor/orange_cover,
 /area/space)
@@ -261,9 +279,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
-"kh" = (
-/turf/open/floor/plating,
-/area/corsat/dropzone/landingzoneone)
 "kA" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/effect/turf_decal/trimline/yellow/filled/mid_joiner,
@@ -295,12 +310,31 @@
 	},
 /turf/open/floor/prison/plate,
 /area/corsat/dropzone/landingzoneone)
+"lK" = (
+/obj/structure/prop/urban/misc/cabinet,
+/turf/open/floor/prison/plate,
+/area/space)
+"lW" = (
+/obj/structure/prop/urban/airport/refuelinghose2{
+	pixel_w = 10;
+	pixel_z = -10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "md" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 4
 	},
 /turf/open/floor/plate,
 /area/corsat/dropzone/landingzoneone)
+"mh" = (
+/obj/effect/turf_decal/trimline/red/warning,
+/obj/effect/turf_decal/stencil/letter_f,
+/obj/effect/turf_decal/stencil/letter_u{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "mm" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 1
@@ -311,7 +345,22 @@
 /turf/open/floor/prison/plate,
 /area/space)
 "mn" = (
-/obj/structure/prop/urban/misc/buildinggreeblies/greeble2,
+/obj/structure/prop/urban/airport/refuelinghose{
+	pixel_w = 10;
+	pixel_z = -10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
+"my" = (
+/obj/effect/turf_decal/trimline/purple/filled/shrink_ccw{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stencil/letter_c{
+	pixel_w = 10
+	},
 /turf/open/floor/prison/plate,
 /area/space)
 "mS" = (
@@ -363,10 +412,10 @@
 /turf/open/floor/plating,
 /area/space)
 "oy" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/shrink_ccw{
+/obj/effect/turf_decal/trimline/purple/filled/shrink_ccw{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner{
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
 	dir = 1
 	},
 /turf/open/floor/prison/plate,
@@ -379,6 +428,9 @@
 "oF" = (
 /turf/open/floor/mainship/hexagon,
 /area/space)
+"oL" = (
+/turf/closed/wall/r_wall/prison/yellow,
+/area/corsat/dropzone/landingzoneone)
 "pj" = (
 /obj/effect/turf_decal/trimline/yellow/filled/shrink_ccw{
 	dir = 4
@@ -409,23 +461,20 @@
 /turf/open/floor/prison/plate,
 /area/space)
 "pJ" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/line{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/line{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner{
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner{
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
 	dir = 4
 	},
 /turf/open/floor/prison/plate,
 /area/space)
-"pN" = (
-/turf/closed/wall/r_wall/prison_unmeltable/yellow,
-/area/corsat/dropzone/landingzoneone)
 "pW" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
@@ -440,14 +489,6 @@
 	dir = 1
 	},
 /obj/effect/spawner/random/misc/structure/supplycrate/normalweighted,
-/turf/open/floor/prison/plate,
-/area/space)
-"qI" = (
-/obj/effect/turf_decal/trimline/red/warning,
-/obj/effect/turf_decal/stencil/letter_f,
-/obj/effect/turf_decal/stencil/letter_u{
-	pixel_w = 10
-	},
 /turf/open/floor/prison/plate,
 /area/space)
 "qX" = (
@@ -466,6 +507,12 @@
 "rW" = (
 /turf/closed/wall/r_wall/prison/yellow,
 /area/space)
+"sa" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "sy" = (
 /obj/machinery/landinglight/lz1{
 	dir = 8
@@ -480,6 +527,9 @@
 "sA" = (
 /turf/closed/wall/r_wall/prison,
 /area/space)
+"sJ" = (
+/turf/closed/wall/r_wall/prison_unmeltable/yellow,
+/area/corsat/dropzone/landingzoneone)
 "sX" = (
 /obj/effect/urban/decal/workers_decal{
 	dir = 4
@@ -493,6 +543,22 @@
 /obj/machinery/floodlight/landing,
 /turf/open/floor/prison/plate,
 /area/corsat/dropzone/landingzoneone)
+"ty" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stencil/letter_a{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_i,
+/obj/effect/turf_decal/stencil/letter_n{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "tz" = (
 /turf/closed/wall/cult,
 /area/space)
@@ -530,6 +596,12 @@
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/open/floor/lightplate,
 /area/space)
+"ux" = (
+/obj/structure/prop/urban/misc/buildinggreeblies/greeble6{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "uI" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 4
@@ -547,6 +619,12 @@
 /area/space)
 "vc" = (
 /obj/structure/window/framed/colony,
+/turf/open/floor/prison/plate,
+/area/space)
+"vf" = (
+/obj/structure/sign/fixedinplace/engineering{
+	dir = 8
+	},
 /turf/open/floor/prison/plate,
 /area/space)
 "vk" = (
@@ -645,6 +723,10 @@
 /obj/structure/stairs/multiz/directional/east,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/space)
+"xg" = (
+/obj/machinery/power/apc,
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "xm" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/prison/plate,
@@ -655,18 +737,6 @@
 "xO" = (
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/closed/wall/r_wall/prison_unmeltable,
-/area/space)
-"yc" = (
-/obj/structure/window/framed/prison/reinforced/hull,
-/turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
-"yd" = (
-/obj/effect/turf_decal/trimline/red/warning,
-/obj/effect/turf_decal/stencil/letter_e{
-	pixel_w = -10
-	},
-/obj/effect/turf_decal/stencil/letter_l,
-/turf/open/floor/prison/plate,
 /area/space)
 "yl" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
@@ -690,12 +760,6 @@
 /area/space)
 "yW" = (
 /obj/structure/stairs/multiz/directional/south,
-/turf/open/floor/prison/plate,
-/area/space)
-"zh" = (
-/obj/structure/sign/fixedinplace/engineering{
-	dir = 8
-	},
 /turf/open/floor/prison/plate,
 /area/space)
 "zn" = (
@@ -729,15 +793,6 @@
 	dir = 6
 	},
 /area/space)
-"AB" = (
-/turf/open/floor/plate,
-/area/corsat/dropzone/landingzoneone)
-"AC" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 4
-	},
-/turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
 "AM" = (
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 4
@@ -747,6 +802,9 @@
 "AY" = (
 /obj/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating,
+/area/corsat/dropzone/landingzoneone)
+"Ba" = (
+/turf/open/floor/plate,
 /area/corsat/dropzone/landingzoneone)
 "Bd" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
@@ -758,10 +816,6 @@
 "Be" = (
 /turf/closed/wall/kutjevo,
 /area/space)
-"Bh" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/warning,
-/turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
 "Bp" = (
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 1
@@ -772,6 +826,14 @@
 /obj/docking_port/stationary/marine_dropship/lz1,
 /turf/open/floor/plating,
 /area/corsat/dropzone/landingzoneone)
+"Bu" = (
+/obj/effect/turf_decal/trimline/red/warning,
+/obj/effect/turf_decal/stencil/letter_e{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_l,
+/turf/open/floor/prison/plate,
+/area/space)
 "BA" = (
 /obj/effect/urban/decal/road/road_stop/regular,
 /turf/open/floor/plate,
@@ -779,9 +841,6 @@
 "BE" = (
 /obj/effect/urban/decal/road/road_stop/two,
 /turf/open/floor/plate,
-/area/corsat/dropzone/landingzoneone)
-"BJ" = (
-/turf/open/floor/prison/plate,
 /area/corsat/dropzone/landingzoneone)
 "BK" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
@@ -815,15 +874,22 @@
 /obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
 /turf/open/floor/prison/plate,
 /area/space)
-"CY" = (
-/turf/open/floor/mainship/hexagon,
-/area/corsat/dropzone/landingzoneone)
 "Db" = (
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/space)
-"Di" = (
-/turf/closed/wall/r_wall/prison_unmeltable,
+"Dc" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
+/turf/open/floor/prison/plate,
 /area/corsat/dropzone/landingzoneone)
+"Dk" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line,
+/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
+/obj/effect/turf_decal/stencil/letter_r,
+/obj/effect/turf_decal/stencil/letter_e{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "Dq" = (
 /obj/structure/prop/mainship/holobarrier,
 /turf/open/openspace,
@@ -834,6 +900,10 @@
 	name = "\improper Lockdown"
 	},
 /turf/open/floor/lightplate,
+/area/space)
+"DI" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/open/floor/prison/plate,
 /area/space)
 "DK" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -904,10 +974,10 @@
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/space)
 "Gx" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/shrink_ccw{
+/obj/effect/turf_decal/trimline/purple/filled/shrink_ccw{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner{
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
 	dir = 4
 	},
 /turf/open/floor/prison/plate,
@@ -937,6 +1007,10 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
+"Ht" = (
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "Hw" = (
 /obj/structure/window/framed/colony,
 /turf/closed/wall/prison/yellow,
@@ -946,9 +1020,17 @@
 /turf/open/floor/prison/plate,
 /area/space)
 "Is" = (
-/obj/structure/window/framed/prison/reinforced,
+/obj/effect/turf_decal/trimline/dark_red/filled/line,
+/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
+/obj/effect/turf_decal/stencil/letter_a{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_c,
+/obj/effect/turf_decal/stencil/letter_t{
+	pixel_w = 10
+	},
 /turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
+/area/space)
 "Iu" = (
 /turf/open/floor/prison/plate,
 /area/space)
@@ -1008,9 +1090,6 @@
 /obj/structure/prop/mainship/sensor_computer1,
 /turf/open/floor/prison/plate,
 /area/space)
-"KM" = (
-/turf/closed/wall/r_wall/prison/yellow,
-/area/corsat/dropzone/landingzoneone)
 "KT" = (
 /obj/structure/largecrate/random/barrel/red,
 /turf/open/floor/prison/plate,
@@ -1041,6 +1120,12 @@
 	},
 /turf/open/floor/mainship/hexagon,
 /area/corsat/dropzone/landingzoneone)
+"Mt" = (
+/obj/machinery/door/poddoor/mainship/indestructible{
+	dir = 2
+	},
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "MC" = (
 /obj/effect/spawner/random/misc/structure/supplycrate/normalweighted,
 /turf/open/floor/prison/plate,
@@ -1057,6 +1142,12 @@
 /obj/structure/stairs/multiz/directional/west,
 /turf/open/floor/prison/plate,
 /area/space)
+"Nl" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "Nv" = (
 /turf/open/floor/prison/whitegreenfull2,
 /area/space)
@@ -1078,11 +1169,14 @@
 /obj/structure/prop/mainship/railing,
 /turf/open/floor/prison/plate,
 /area/space)
+"OR" = (
+/turf/open/floor/mainship/hexagon,
+/area/corsat/dropzone/landingzoneone)
 "OU" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/line{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner{
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
 	dir = 1
 	},
 /turf/open/floor/prison/plate,
@@ -1090,6 +1184,18 @@
 "Pg" = (
 /obj/item/disk/nuclear/blue,
 /turf/open/floor/mainship/tcomms,
+/area/space)
+"Pj" = (
+/turf/closed/wall/r_wall/prison_unmeltable,
+/area/corsat/dropzone/landingzoneone)
+"PF" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line,
+/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
+/obj/effect/turf_decal/stencil/letter_o{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_r,
+/turf/open/floor/prison/plate,
 /area/space)
 "PM" = (
 /obj/machinery/landinglight/lz1,
@@ -1160,6 +1266,18 @@
 /obj/structure/window/framed/prison/reinforced,
 /turf/open/floor/prison/plate,
 /area/space)
+"Tq" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner,
+/obj/effect/turf_decal/stencil/letter_e{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_q,
+/obj/effect/turf_decal/stencil/letter_u{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "Ty" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning,
 /turf/open/floor/prison/plate,
@@ -1180,6 +1298,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
+"TV" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 8
+	},
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "Up" = (
 /turf/open/floor/prison/darkred/full,
 /area/space)
@@ -1189,6 +1313,9 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/space)
+"UB" = (
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
 "UV" = (
 /turf/open/floor/mainship_hull/gray/dir{
 	dir = 4
@@ -1220,8 +1347,30 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
+"Vz" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner,
+/obj/effect/turf_decal/stencil/letter_i{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_p,
+/obj/effect/turf_decal/stencil/letter_m{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
+/area/space)
 "VH" = (
 /turf/open/floor/plating/plating_catwalk/prison,
+/area/space)
+"VP" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/prison/plate,
+/area/corsat/dropzone/landingzoneone)
+"Wf" = (
+/obj/structure/prop/urban/signs/high_voltage,
+/turf/closed/wall/r_wall/prison_unmeltable/yellow,
 /area/space)
 "Wq" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/corner{
@@ -1255,6 +1404,22 @@
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
+/area/space)
+"Xm" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stencil/letter_m{
+	pixel_w = -10
+	},
+/obj/effect/turf_decal/stencil/letter_e,
+/obj/effect/turf_decal/stencil/letter_n{
+	pixel_w = 10
+	},
+/turf/open/floor/prison/plate,
 /area/space)
 "Xo" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
@@ -1297,6 +1462,10 @@
 /obj/machinery/prop/fuel_enhancer,
 /turf/open/floor/prison/plate,
 /area/space)
+"Yt" = (
+/obj/structure/prop/urban/vehicles/large/colonycrawlers/science/science1,
+/turf/open/floor/prison/plate,
+/area/space)
 "Yy" = (
 /obj/effect/turf_decal/trimline/red/corner{
 	dir = 8
@@ -1304,10 +1473,7 @@
 /turf/open/floor/prison/plate,
 /area/space)
 "YQ" = (
-/obj/structure/prop/urban/airport/refuelinghose{
-	pixel_w = -5;
-	pixel_z = -10
-	},
+/obj/structure/prop/urban/misc/buildinggreeblies/greeble2/dense,
 /turf/open/floor/prison/plate,
 /area/space)
 "Zf" = (
@@ -1325,6 +1491,10 @@
 /obj/effect/turf_decal/trimline/yellow/filled/mid_joiner{
 	dir = 4
 	},
+/turf/open/floor/prison/plate,
+/area/space)
+"Zp" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/free_access,
 /turf/open/floor/prison/plate,
 /area/space)
 "Zr" = (
@@ -1353,12 +1523,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
-"ZW" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/warning{
-	dir = 4
-	},
-/turf/open/floor/prison/plate,
-/area/corsat/dropzone/landingzoneone)
 
 (1,1,1) = {"
 Jl
@@ -9349,39 +9513,39 @@ MP
 MP
 MP
 MP
-yc
-yc
-yc
-yc
-yc
-yc
-yc
-yc
-pN
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-Di
-BJ
-AB
-AB
-AB
-AB
-BJ
-KM
-KM
-pN
+Ht
+Ht
+Ht
+Ht
+Ht
+Ht
+Ht
+Ht
+sJ
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+Pj
+UB
+Ba
+Ba
+Ba
+Ba
+UB
+oL
+oL
+sJ
 wd
 wd
 wd
@@ -9502,38 +9666,38 @@ Iu
 Iu
 Iu
 Vc
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-eh
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-AB
-AB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+xg
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+Ba
+Ba
 BE
 BE
-BJ
-BJ
-BJ
-pN
+UB
+UB
+UB
+sJ
 Ej
 Ej
 Kd
@@ -9654,38 +9818,38 @@ Iu
 Iu
 Iu
 vs
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
+sa
 md
 md
 DK
 DK
-AC
-AC
-AC
-pN
+sa
+sa
+sa
+sJ
 Ej
 Ej
 Ye
@@ -9800,44 +9964,44 @@ Jl
 wd
 Iu
 Iu
+lW
 Iu
 Iu
-Iu
-Iu
-Iu
+ux
+lK
 Gj
 BO
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
-ZW
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
+Nl
 tc
 zO
 zO
 Xo
 ju
-ZW
-ZW
-ZW
-pN
+Nl
+Nl
+Nl
+sJ
 UV
 UV
 Aq
@@ -9949,16 +10113,16 @@ Jl
 Jl
 Jl
 Jl
-wd
+Wf
 Iu
 Iu
-gq
+Iu
 Iu
 Iu
 mn
 Iu
 Gj
-Bh
+Dc
 sy
 Zf
 Zf
@@ -9989,7 +10153,7 @@ UY
 UY
 UY
 UY
-ex
+Mt
 Jl
 Jl
 Jl
@@ -10106,42 +10270,42 @@ Iu
 Iu
 Iu
 Iu
-Iu
+DI
 YQ
-Iu
+DI
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 AY
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
-CY
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -10257,43 +10421,43 @@ wd
 Iu
 Iu
 Iu
+DI
+DI
 Iu
-Iu
-Iu
-Iu
+DI
 Gj
-Bh
+Dc
 wI
-kh
-kh
+gq
+gq
 AY
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 AY
-kh
-kh
+gq
+gq
 PM
-CY
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -10410,42 +10574,42 @@ Iu
 Iu
 Iu
 Iu
-Iu
+DI
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
-CY
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -10566,38 +10730,38 @@ Iu
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
 bg
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -10718,38 +10882,38 @@ Iu
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
 bg
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -10870,38 +11034,38 @@ Iu
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 Br
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
 bg
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -11020,40 +11184,40 @@ Iu
 Iu
 Iu
 Iu
-Iu
+Yt
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
 bg
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -11174,38 +11338,38 @@ Iu
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
 bg
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -11326,38 +11490,38 @@ Iu
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
-CY
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -11478,38 +11642,38 @@ rW
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
+gq
+gq
 AY
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 AY
-kh
-kh
+gq
+gq
 PM
-CY
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -11630,38 +11794,38 @@ rW
 Iu
 Iu
 Gj
-Bh
+Dc
 wI
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 AY
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
-kh
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
+gq
 PM
-CY
-CY
-CY
-CY
-CY
-CY
-CY
-ex
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+Mt
 Jl
 Jl
 Jl
@@ -11782,7 +11946,7 @@ rW
 Iu
 Iu
 Gj
-Bh
+Dc
 ui
 IW
 IW
@@ -11813,7 +11977,7 @@ Mn
 Mn
 Mn
 Mn
-ex
+Mt
 Jl
 Jl
 Jl
@@ -11935,37 +12099,37 @@ Iu
 Iu
 UX
 SN
-bw
-bw
-bw
-bw
-bw
-bw
+VP
+VP
+VP
+VP
+VP
+VP
 BK
 BK
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
-bw
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
+VP
 nH
-bw
-bw
-bw
+VP
+VP
+VP
 XE
 XE
-bw
-bw
-pN
+VP
+VP
+sJ
 dz
 dz
 pA
@@ -12086,38 +12250,38 @@ rW
 Iu
 Iu
 nJ
-iN
-iN
-iN
-iN
-iN
-iN
-iN
+TV
+TV
+TV
+TV
+TV
+TV
+TV
 IQ
 IQ
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
-iN
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
+TV
 ly
 ly
-iN
-iN
-pN
+TV
+TV
+sJ
 Ej
 Ej
 Ye
@@ -12237,39 +12401,39 @@ Iu
 rW
 Iu
 Iu
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-BJ
-pN
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+sJ
 Ej
 Ej
 Ye
@@ -12389,39 +12553,39 @@ Iu
 rW
 rW
 rW
-KM
-KM
-KM
-KM
-KM
-KM
-Is
-BJ
+oL
+oL
+oL
+oL
+oL
+oL
+cA
+UB
 jA
-Is
-BJ
+cA
+UB
 jA
-Is
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-KM
-BJ
-BJ
-BJ
-BJ
-KM
-pN
+cA
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+UB
+UB
+UB
+UB
+oL
+sJ
 wd
 wd
 wd
@@ -12878,7 +13042,7 @@ Iu
 Iu
 Iu
 Iu
-qI
+mh
 nY
 nY
 nY
@@ -13005,7 +13169,7 @@ jW
 Iu
 Iu
 CM
-oy
+my
 Iu
 Wy
 jY
@@ -13017,6 +13181,7 @@ Iu
 Iu
 Iu
 Iu
+Zp
 Iu
 Iu
 Iu
@@ -13029,8 +13194,7 @@ Iu
 Iu
 Iu
 Iu
-Iu
-yd
+Bu
 nY
 gt
 nY
@@ -13156,10 +13320,10 @@ Iu
 jW
 Iu
 Iu
-kF
-OU
+Dk
+bx
 Iu
-kA
+Tq
 LW
 Iu
 Iu
@@ -13308,10 +13472,10 @@ Iu
 jW
 Iu
 Iu
-kF
-OU
+Is
+ty
 Iu
-kA
+Vz
 LW
 Iu
 Iu
@@ -13460,10 +13624,10 @@ Iu
 jW
 Iu
 Iu
-kF
-OU
+PF
+Xm
 Iu
-kA
+bf
 LW
 Iu
 Iu
@@ -13613,13 +13777,13 @@ jW
 Iu
 Iu
 CM
-oy
+et
 Iu
 kA
 fL
 pj
 Zi
-Iu
+Zp
 Iu
 Iu
 Iu
@@ -14075,7 +14239,7 @@ kA
 fL
 pj
 Zi
-Iu
+Zp
 Iu
 Iu
 Iu
@@ -14689,7 +14853,7 @@ Iu
 Iu
 Iu
 Iu
-Iu
+Zp
 Iu
 Iu
 Iu
@@ -21778,7 +21942,7 @@ Iu
 Iu
 Iu
 Iu
-zh
+vf
 jW
 Iu
 Iu
