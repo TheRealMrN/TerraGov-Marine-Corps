@@ -2,6 +2,8 @@
 //you may ignore it (up to you) - that means the area is probably not very important and not requried.
 //However, you may still edit it if you'd like :D (also if you see a propplaceholder ignore it - gonna draw something up for that later)
 
+//
+
 /area/plenoda
 	name = "Generic Area"
 	icon_state = "red2"
@@ -138,6 +140,7 @@
 	icon_state = "red"
 //generic electrical control rooms for the reactor - think aux systems (cooling, station electrical grid, daeator, etc.; just a bunch of panels)
 //((ps: there were 4 generic electrical areas i just realized that it's unnecessary since they'll all look pretty much the same lmao))
+// remember to change paths here and in map files else areas will all get fucked up - easy way is to ctrl+f replace
 
 /area/plenoda/security/breakroomf2
 	name = "Security Break Room - Floor 2"

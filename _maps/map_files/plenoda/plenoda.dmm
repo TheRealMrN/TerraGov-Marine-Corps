@@ -20,12 +20,6 @@
 /obj/structure/prop/mainship/pipeprop,
 /turf/open/space/basic,
 /area/space)
-"ak" = (
-/obj/structure/table,
-/obj/effect/spawner/random/misc/clipboard,
-/obj/effect/spawner/random/misc/clipboard,
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/security/brig)
 "al" = (
 /obj/structure/cable/layer1,
 /obj/structure/cable,
@@ -55,6 +49,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/airbridge/south)
+"av" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 8
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "aw" = (
 /obj/structure/lattice,
 /turf/open/openspace,
@@ -81,6 +81,12 @@
 /obj/structure/window/framed/prison/reinforced,
 /turf/open/floor/plating,
 /area/plenoda/engineering/security/checkpointsouth)
+"aE" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/misc/folder,
+/obj/effect/spawner/random/misc/folder,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "aF" = (
 /turf/closed/wall/r_wall/prison/yellow,
 /area/plenoda/engineering/hallway/entry)
@@ -234,6 +240,10 @@
 "bD" = (
 /turf/open/floor/plating,
 /area/plenoda/hangar)
+"bG" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "bH" = (
 /turf/closed/wall/kutjevo,
 /area/plenoda/civ/shower)
@@ -423,6 +433,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/hangar/lz_one)
+"df" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/plenoda/engineering/airbridge)
 "dh" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/plenoda/engineering/fuel)
@@ -452,6 +468,12 @@
 /obj/structure/window/framed/prison/reinforced,
 /turf/open/floor/plating,
 /area/plenoda/hangar)
+"dt" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/tile/transparent/neutral/fourcorners,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark,
+/area/plenoda/operations/breakroomf2)
 "du" = (
 /obj/structure/prop/mainship/holobarrier/passthrough,
 /turf/open/floor/plating,
@@ -545,6 +567,10 @@
 	},
 /turf/open/floor/plate,
 /area/plenoda/hangar/lz_one)
+"eh" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/reactor/maint)
 "eo" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 9
@@ -657,6 +683,10 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/entry)
+"fd" = (
+/obj/effect/turf_decal/warning_stripes/thick,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "fe" = (
 /obj/machinery/door/poddoor/shutters/urban/secure_red_door{
 	dir = 8;
@@ -691,10 +721,11 @@
 "fp" = (
 /turf/open/floor/lightplate,
 /area/plenoda/operations/breakroomf2)
-"fr" = (
-/obj/effect/turf_decal/warning_stripes/thick,
+"fu" = (
+/obj/structure/bed/bunkbed,
+/obj/item/flash,
 /turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
+/area/plenoda/engineering/security/brig)
 "fv" = (
 /obj/machinery/computer3/powermonitor,
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -746,6 +777,12 @@
 "fR" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/reactor/entry/f1/west)
+"fW" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 5
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "gb" = (
 /turf/open/floor/prison/darkyellow{
 	dir = 8
@@ -877,12 +914,6 @@
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/f2/checkroom)
-"gM" = (
-/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
-	dir = 1
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/reactor/entry/f1/west)
 "gR" = (
 /obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
 	dir = 4
@@ -944,6 +975,12 @@
 /obj/structure/window/framed/prison/reinforced,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/reactor)
+"hv" = (
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 4
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "hw" = (
 /obj/structure/platform,
 /turf/open/floor/prison/plate,
@@ -974,6 +1011,14 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/plenoda/engineering/airbridge)
+"hJ" = (
+/obj/structure/table/wood,
+/obj/item/storage/briefcase{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "hL" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
@@ -1066,6 +1111,15 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/lightplate,
 /area/plenoda/engineering/f3/mall/storage)
+"in" = (
+/obj/structure/table/wood,
+/obj/item/storage/donut_box,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
+"io" = (
+/obj/effect/spawner/random/misc/plant,
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "iq" = (
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/open/floor/prison/plate,
@@ -1125,6 +1179,12 @@
 "iS" = (
 /turf/open/floor/orange_cover,
 /area/plenoda/hangar/lz_two)
+"iV" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/reactor/entry/f1/west)
 "iX" = (
 /turf/open/floor/prison/darkyellow/full,
 /area/plenoda/engineering/f3/parking)
@@ -1132,6 +1192,14 @@
 /obj/structure/foamedmetal,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/f3/maint/west/crashsite)
+"jc" = (
+/obj/structure/table,
+/obj/item/storage/donut_box{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
 "je" = (
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/reactor/turbine)
@@ -1245,12 +1313,6 @@
 	dir = 1
 	},
 /area/plenoda/engineering/acontrol)
-"jR" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 8
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "jT" = (
 /obj/structure/prop/urban/signs/high_voltage,
 /turf/closed/wall/r_wall/prison_unmeltable/yellow,
@@ -1259,6 +1321,10 @@
 /obj/structure/closet/radiation,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/decont)
+"jV" = (
+/obj/structure/bed/chair/comfy/black,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "jW" = (
 /turf/closed/wall/prison/yellow,
 /area/space)
@@ -1275,6 +1341,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/entry)
+"ka" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "kc" = (
 /turf/open/floor/lightplate,
 /area/plenoda/operations/communications)
@@ -1450,6 +1522,12 @@
 "lO" = (
 /turf/open/floor/lightplate,
 /area/plenoda/civ/entry)
+"lQ" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 9
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "lT" = (
 /obj/structure/prop/mainship/pipeprop/pump{
 	dir = 8
@@ -1619,12 +1697,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
-"mZ" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 5
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "nb" = (
 /obj/structure/prop/urban/misc/trash/blue,
 /obj/effect/spawner/random/misc/trash,
@@ -2143,6 +2215,9 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison/alt,
 /area/plenoda/engineering/fuel/refinery)
+"qn" = (
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "qo" = (
 /turf/open/floor/prison/darkyellow/full,
 /area/plenoda/engineering/f2/road)
@@ -2185,12 +2260,6 @@
 /obj/effect/turf_decal/warning_stripes/linethick,
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
-"qO" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 4
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "qQ" = (
 /obj/structure/filingcabinet/security{
 	pixel_w = -8
@@ -2246,6 +2315,16 @@
 /obj/structure/cable/layer3,
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
+"rl" = (
+/obj/structure/table,
+/obj/effect/spawner/random/misc/clipboard,
+/obj/effect/spawner/random/misc/clipboard,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
+"rq" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "rr" = (
 /obj/effect/turf_decal/trimline/dark_red/line{
 	pixel_z = -5
@@ -2302,6 +2381,10 @@
 /obj/structure/prop/mainship/meterprop/random,
 /turf/closed/wall/prison/yellow,
 /area/space)
+"rI" = (
+/obj/structure/prop/tgbrokenvendor/boozeomat,
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "rJ" = (
 /obj/structure/prop/mainship/pipeprop{
 	dir = 6
@@ -2472,10 +2555,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/security/checkpointsouth)
-"sM" = (
-/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass,
-/turf/open/floor/prison/plate,
-/area/space)
 "sP" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/security/checkpointsouth)
@@ -2680,6 +2759,12 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
+"ut" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "uu" = (
 /obj/machinery/door/airlock/engineering,
 /turf/open/floor/prison/plate,
@@ -3187,6 +3272,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/hangar/lz_one)
+"xX" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 10
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "ya" = (
 /obj/structure/prop/propplaceholder,
 /turf/open/floor/prison/darkyellow{
@@ -3356,6 +3447,11 @@
 "zo" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/plenoda/engineering/reactor/turbine)
+"zq" = (
+/obj/structure/table/wood,
+/obj/item/storage/secure/briefcase,
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "zy" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/prison/plate,
@@ -3472,10 +3568,6 @@
 "Ac" = (
 /turf/open/floor/lightplate,
 /area/plenoda/operations/atc)
-"Ad" = (
-/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass,
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/reactor/maint)
 "Ae" = (
 /obj/effect/turf_decal/caution{
 	dir = 4
@@ -3593,6 +3685,12 @@
 "Bg" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/airbridge/north)
+"Bh" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 4
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "Bi" = (
 /obj/machinery/door/airlock/multi_tile/mainship/engineering/free_access,
 /turf/open/floor/prison/plate,
@@ -3607,12 +3705,6 @@
 /obj/docking_port/stationary/marine_dropship/lz1,
 /turf/open/floor/plating,
 /area/plenoda/hangar/lz_one)
-"Bs" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 9
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "Bt" = (
 /obj/machinery/power/apc/drained,
 /turf/open/floor/prison/plate,
@@ -4068,6 +4160,11 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
+"Fe" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/weaponry/weapon_recharger,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "Fg" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 8
@@ -4150,12 +4247,6 @@
 "FJ" = (
 /turf/open/openspace,
 /area/plenoda/civ/mall)
-"FK" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 1
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "FM" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/shrink_ccw{
 	dir = 1
@@ -4177,11 +4268,6 @@
 "FQ" = (
 /turf/open/floor/lightplate,
 /area/plenoda/civ/med/pharmacy)
-"FR" = (
-/obj/structure/bed/bunkbed,
-/obj/item/flash,
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/security/brig)
 "FT" = (
 /turf/open/floor/lightplate,
 /area/plenoda/engineering/f3/mall/storage)
@@ -4349,6 +4435,10 @@
 "Hk" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/f3/maint/west/crashsite)
+"Hn" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass,
+/turf/open/floor/prison/plate,
+/area/space)
 "Ho" = (
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/open/floor/glass/reinforced,
@@ -4383,12 +4473,6 @@
 "Hz" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/plenoda/engineering/reactor/control)
-"HA" = (
-/obj/effect/turf_decal/warning_stripes/thick/corner{
-	dir = 1
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "HD" = (
 /turf/closed/wall/kutjevo,
 /area/plenoda/civ/med/pharmacy)
@@ -4539,6 +4623,12 @@
 "IS" = (
 /turf/closed/wall/r_wall/prison/yellow,
 /area/plenoda/engineering/changeroom)
+"IT" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/turf/open/floor/iron/grimy,
+/area/plenoda/operations/breakroomf2)
 "IW" = (
 /obj/machinery/landinglight/lz1{
 	dir = 4
@@ -4606,6 +4696,11 @@
 "JA" = (
 /turf/closed/wall/mainship/gray,
 /area/plenoda/operations/bridge/server)
+"JC" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "JD" = (
 /obj/machinery/firealarm,
 /turf/open/floor/tile/darkish,
@@ -4661,6 +4756,9 @@
 "Kb" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/civ/med/pharmacy)
+"Kc" = (
+/turf/open/floor/iron/grimy,
+/area/plenoda/operations/breakroomf2)
 "Kd" = (
 /obj/structure/prop/mainship/hangar_stencil,
 /turf/open/floor/mainship_hull/gray/dir,
@@ -4846,6 +4944,10 @@
 /obj/item/tool/multitool,
 /turf/open/floor/prison/plate,
 /area/space)
+"Ls" = (
+/obj/structure/bed/chair/comfy/brown,
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "Lt" = (
 /obj/structure/prop/urban/misc/fake/heavydutywire/heavy1{
 	dir = 8
@@ -5185,6 +5287,12 @@
 "NM" = (
 /turf/open/floor/plating/dmg3,
 /area/plenoda/hangar)
+"NQ" = (
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "NR" = (
 /turf/closed/wall/kutjevo,
 /area/plenoda/civ/entry)
@@ -5212,6 +5320,13 @@
 "NZ" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/f3/maint/lz2road)
+"Oa" = (
+/obj/structure/table,
+/obj/item/storage/secure/briefcase,
+/obj/item/taperecorder,
+/obj/item/book/manual/security_space_law,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
 "Ob" = (
 /obj/effect/spawner/random/misc/structure/supplycrate/normalweighted,
 /turf/open/floor/plating,
@@ -5401,13 +5516,6 @@
 /obj/effect/turf_decal/stencil/letter_r,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/entry)
-"PI" = (
-/obj/structure/table,
-/obj/item/storage/secure/briefcase,
-/obj/item/taperecorder,
-/obj/item/book/manual/security_space_law,
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/security/brig)
 "PJ" = (
 /turf/closed/mineral/smooth/bigred,
 /area/plenoda/meteor)
@@ -5672,6 +5780,12 @@
 "RG" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/f2/maintenance)
+"RI" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "RO" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 8
@@ -5833,12 +5947,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/hangar)
-"SW" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth,
-/area/plenoda/engineering/airbridge)
 "Tc" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 6
@@ -6104,12 +6212,6 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/hangar/lz_one)
-"UO" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 10
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "UP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/secure_data,
@@ -6377,6 +6479,12 @@
 /obj/item/tool/pen,
 /turf/open/floor/prison/darkred,
 /area/plenoda/engineering/security/checkpointsouth)
+"WU" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/open/floor/iron/grimy,
+/area/plenoda/operations/breakroomf2)
 "WV" = (
 /obj/machinery/door/airlock/multi_tile/mainship/secdoor{
 	dir = 1
@@ -6544,6 +6652,12 @@
 "XQ" = (
 /turf/open/floor/prison/plate,
 /area/plenoda/civ/restroom)
+"XR" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "XS" = (
 /turf/closed/wall/r_wall/prison,
 /area/plenoda/engineering/reactor/entry/f1/east)
@@ -6716,12 +6830,6 @@
 /obj/effect/urban/decal/road/road_edge/eight,
 /turf/open/floor/plate,
 /area/plenoda/engineering/airbridge/south)
-"Zn" = (
-/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
-	dir = 1
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/airbridge/north)
 "Zp" = (
 /obj/machinery/door/airlock/multi_tile/mainship/engineering/free_access,
 /turf/open/floor/prison/plate,
@@ -6744,6 +6852,10 @@
 	},
 /turf/open/floor/tile/darkish,
 /area/plenoda/engineering/fuel/refinery)
+"ZC" = (
+/obj/structure/prop/tgbrokenvendor/clothes,
+/turf/open/floor/wood,
+/area/plenoda/operations/breakroomf2)
 "ZD" = (
 /obj/structure/largecrate/guns/russian,
 /obj/structure/largecrate/random/mini/ammo{
@@ -6774,14 +6886,15 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/entry)
-"ZK" = (
-/obj/structure/table,
-/obj/item/storage/donut_box{
-	pixel_x = -8;
-	pixel_y = 3
+"ZQ" = (
+/obj/structure/table/wood,
+/obj/item/book/manual/security_space_law,
+/obj/item/book/manual/security_space_law{
+	pixel_y = 3;
+	pixel_x = 5
 	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/security/brig)
+/turf/open/floor/carpet,
+/area/plenoda/operations/breakroomf2)
 "ZV" = (
 /obj/structure/bed/chair/sofa/left,
 /turf/open/floor/prison/plate,
@@ -9733,26 +9846,26 @@ fn
 yW
 fn
 fn
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-HA
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+NQ
 Cm
 Jl
 Jl
@@ -9904,7 +10017,7 @@ Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10056,7 +10169,7 @@ Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10208,7 +10321,7 @@ Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10360,7 +10473,7 @@ Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10493,26 +10606,26 @@ fn
 fn
 fn
 fn
-jR
-jR
-jR
-jR
-UO
+av
+av
+av
+av
+xX
 Vt
 Vt
 Vt
 Vt
-Bs
-jR
-jR
-jR
-jR
-UO
+lQ
+av
+av
+av
+av
+xX
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10649,22 +10762,22 @@ Bg
 Bg
 Bg
 Bg
-jR
+av
 Vt
 Vt
 Vt
 Vt
-jR
+av
 Bg
 Bg
 Bg
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10811,12 +10924,12 @@ La
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -10963,12 +11076,12 @@ La
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -11115,12 +11228,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -11267,12 +11380,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -11419,12 +11532,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -11571,12 +11684,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -11723,12 +11836,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -11875,12 +11988,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -12027,12 +12140,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -12179,12 +12292,12 @@ ci
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -12331,12 +12444,12 @@ La
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -12483,12 +12596,12 @@ La
 La
 La
 Bg
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -12635,12 +12748,12 @@ fR
 fR
 fR
 ew
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -12787,12 +12900,12 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 XP
 XP
@@ -12931,7 +13044,7 @@ QB
 QB
 QB
 QB
-Ad
+eh
 Ch
 Ch
 Ch
@@ -12939,12 +13052,12 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -13091,12 +13204,12 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Jl
 Jl
@@ -13243,12 +13356,12 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-FK
+RI
 Cm
 Wd
 Wd
@@ -13387,7 +13500,7 @@ QB
 QB
 QB
 QB
-Ad
+eh
 Ch
 Ch
 Ch
@@ -13395,13 +13508,13 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
 Vt
-mZ
-qO
+fW
+Bh
 hH
 hH
 hH
@@ -13547,7 +13660,7 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
@@ -13699,7 +13812,7 @@ Ch
 Ch
 Ch
 ew
-fr
+fd
 Vt
 Vt
 Vt
@@ -13847,11 +13960,11 @@ Wv
 fR
 fR
 Ch
-gM
+iV
 fR
 fR
 ew
-fr
+fd
 Vt
 Vt
 Vt
@@ -14003,7 +14116,7 @@ Iu
 Iu
 Iu
 Ca
-fr
+fd
 Vt
 Vt
 Vt
@@ -14155,44 +14268,44 @@ Iu
 Iu
 Iu
 Ca
-La
-jR
-jR
-jR
-jR
-jR
-jR
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
+hv
+av
+av
+av
+av
+av
+av
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
+df
 oz
 yd
 JX
@@ -14310,7 +14423,7 @@ Ca
 Bg
 Bg
 La
-Zn
+XR
 Bg
 Bg
 Cm
@@ -14610,7 +14723,7 @@ Iu
 Iu
 Iu
 Iu
-sM
+Hn
 Iu
 Iu
 Iu
@@ -23878,7 +23991,7 @@ Jl
 Jl
 Jl
 eE
-FR
+fu
 VA
 VA
 ec
@@ -24488,9 +24601,9 @@ Iu
 Iu
 Nk
 VA
-ZK
+jc
 nc
-PI
+Oa
 VA
 VA
 wY
@@ -24640,7 +24753,7 @@ Iu
 Iu
 VA
 VA
-ak
+rl
 VA
 AG
 VA
@@ -38044,17 +38157,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+dt
+qn
+qn
+qn
+qn
+io
+qn
+qn
+qn
+qn
+zq
 xC
 li
 li
@@ -38196,17 +38309,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+dt
+qn
+Kc
+IT
+Kc
+qn
+Kc
+IT
+Kc
+qn
+hJ
 xC
 li
 li
@@ -38348,17 +38461,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+qn
+qn
+bG
+Fe
+aE
+qn
+jV
+ZQ
+ut
+qn
+qn
 xC
 li
 li
@@ -38500,17 +38613,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+io
+qn
+jV
+JC
+ut
+qn
+Ls
+bG
+ka
+qn
+qn
 xC
 li
 li
@@ -38652,17 +38765,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+qn
+qn
+Ls
+in
+ka
+qn
+jV
+bG
+ut
+qn
+io
 xC
 UG
 UG
@@ -38804,17 +38917,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+qn
+qn
+jV
+bG
+ut
+qn
+aE
+JC
+bG
+qn
+qn
 xC
 tE
 tE
@@ -38956,17 +39069,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+qn
+qn
+Kc
+WU
+Kc
+qn
+Kc
+WU
+Kc
+qn
+qn
 xC
 tE
 tE
@@ -39108,17 +39221,17 @@ wi
 vk
 Ej
 xC
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
-fp
+ZC
+rI
+qn
+qn
+qn
+io
+qn
+qn
+qn
+rq
+rq
 xC
 tE
 tE
@@ -39265,7 +39378,7 @@ xC
 xC
 fp
 fp
-fp
+xC
 fp
 fp
 xC
