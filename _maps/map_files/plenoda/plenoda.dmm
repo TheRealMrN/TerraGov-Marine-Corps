@@ -18,6 +18,7 @@
 /area/plenoda/engineering/security/checkpointsouth)
 "af" = (
 /obj/structure/prop/mainship/pipeprop,
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/space)
 "al" = (
@@ -290,7 +291,7 @@
 /area/plenoda/operations/breakroomf2)
 "bN" = (
 /turf/closed/wall/r_wall/unmeltable,
-/area/space)
+/area/plenoda/testroom)
 "bS" = (
 /obj/structure/table/black,
 /obj/effect/spawner/random/machinery/microwave{
@@ -2605,6 +2606,7 @@
 /obj/structure/prop/mainship/pipeprop{
 	dir = 6
 	},
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/space)
 "rM" = (
@@ -3643,8 +3645,11 @@
 /area/plenoda/engineering/fuel)
 "yq" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
+/obj/item/paper{
+	name = "Suspicious paper"
+	},
 /turf/open/floor/plating,
-/area/space)
+/area/plenoda/testroom)
 "yt" = (
 /obj/effect/turf_decal/trimline/brown/filled/mid_joiner,
 /obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
@@ -4516,6 +4521,10 @@
 /obj/structure/bed/chair/comfy/black,
 /turf/open/floor/wood,
 /area/plenoda/operations/atc/breakroom)
+"EN" = (
+/obj/structure/mine_structure/wooden/support_wall/t_bar,
+/turf/open/openspace,
+/area/space)
 "EP" = (
 /obj/structure/prop/mainship/sensor_computer2,
 /turf/open/floor/prison/darkyellow{
@@ -54074,7 +54083,7 @@ wi
 wi
 wi
 wi
-wi
+EN
 wi
 wi
 wi
