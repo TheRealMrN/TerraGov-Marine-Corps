@@ -4,12 +4,19 @@
 
 //
 
+
 /area/plenoda
 	name = "Generic Area"
 	icon_state = "red2"
 	ceiling = CEILING_METAL
 	minimap_color = MINIMAP_AREA_COLONY
 	always_unpowered = TRUE
+
+/area/plenoda/testroom
+	requires_power = 0
+	name = "Test Room (Ignore)"
+	area_flags = NO_DROPPOD
+	always_unpowered = FALSE
 
 /area/plenoda/hangar
 	name = "Fuel Hangar"
