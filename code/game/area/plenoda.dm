@@ -1,5 +1,5 @@
 //hi atro this is beginnign of area file, this is drunk me (08:27 13/12/2025) - if an area is designated as /area/space (default) - you may ignore it (up to you) - that means the area is probably not very important and not requried. However, you may still edit it if you'd like :D (also if you see a propplaceholder ignore it - gonna draw something up for that later)
-
+// hiiii im testing the pr's
 /area/plenoda
 	name = "Generic Area"
 	icon_state = "red2"
