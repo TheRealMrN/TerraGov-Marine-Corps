@@ -1,5 +1,7 @@
-//hi atro this is beginnign of area file, this is drunk me (08:27 13/12/2025) - if an area is designated as /area/space (default) - you may ignore it (up to you) - that means the area is probably not very important and not requried. However, you may still edit it if you'd like :D (also if you see a propplaceholder ignore it - gonna draw something up for that later)
-// hiiii im testing the pr's
+//hi atro this is beginnign of area file, this is drunk me (08:27 13/12/2025) - if an area is designated as /area/space (default) -
+//you may ignore it (up to you) - that means the area is probably not very important and not requried.
+//However, you may still edit it if you'd like :D (also if you see a propplaceholder ignore it - gonna draw something up for that later)
+
 /area/plenoda
 	name = "Generic Area"
 	icon_state = "red2"
@@ -83,7 +85,8 @@
 
 /area/plenoda/engineering/reactor/control
 	name = "Reactor Control Room"
-//this area externds to floor 2 - the floor 2 control room is meant to be more of an observation room. i will create a different area for this later. think of it as an obervation area that superiors would check in on once in a while to see that the reactor personnel aren't doing anything stupid in the chamber lmao
+//this area externds to floor 2 - the floor 2 control room is meant to be more of an observation room. i will create a different area for this later.
+//think of it as an obervation area that superiors would check in on once in a while to see that the reactor personnel aren't doing anything stupid in the chamber lmao
 
 /area/plenoda/engineering/reactor/control/f2
 
@@ -133,7 +136,8 @@
 /area/plenoda/engineering/reactor/godiwillsortthislater/electrical/one
 	name = "Reactor Electrical Maintenance Tunnel 1"
 	icon_state = "red"
-//generic electrical control rooms for the reactor - think aux systems (cooling, station electrical grid, daeator, etc.; just a bunch of panels) ((ps: there were 4 generic electrical areas i just realized that it's unnecessary since they'll all look pretty much the same lmao))
+//generic electrical control rooms for the reactor - think aux systems (cooling, station electrical grid, daeator, etc.; just a bunch of panels)
+//((ps: there were 4 generic electrical areas i just realized that it's unnecessary since they'll all look pretty much the same lmao))
 
 /area/plenoda/security/breakroomf2
 	name = "Security Break Room - Floor 2"
@@ -313,7 +317,8 @@
 
 /area/plenoda/engineering/f3/cargo
 	name = "Cargo Elevator - Floor 3"
-//i just realized i should have put comments where i would do custom sprites. eh whatever. gonna make a custom sprite for cranes over here. also custom sprites for everything that is /obj/strucutre/prop/propplaceholder obv
+//i just realized i should have put comments where i would do custom sprites. eh whatever. gonna make a custom sprite for cranes over here.
+// also custom sprites for everything that is /obj/strucutre/prop/propplaceholder obv
 
 /area/plenoda/engineering/f3/mall
 	name = "Mall Maintenance - Floor 3"

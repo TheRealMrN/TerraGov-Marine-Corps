@@ -20,6 +20,12 @@
 /obj/structure/prop/mainship/pipeprop,
 /turf/open/space/basic,
 /area/space)
+"ak" = (
+/obj/structure/table,
+/obj/effect/spawner/random/misc/clipboard,
+/obj/effect/spawner/random/misc/clipboard,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
 "al" = (
 /obj/structure/cable/layer1,
 /obj/structure/cable,
@@ -685,6 +691,10 @@
 "fp" = (
 /turf/open/floor/lightplate,
 /area/plenoda/operations/breakroomf2)
+"fr" = (
+/obj/effect/turf_decal/warning_stripes/thick,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "fv" = (
 /obj/machinery/computer3/powermonitor,
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -867,6 +877,12 @@
 /obj/structure/window/framed/mainship/gray/toughened/hull,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/f2/checkroom)
+"gM" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/reactor/entry/f1/west)
 "gR" = (
 /obj/effect/turf_decal/trimline/brown/filled/mid_joiner{
 	dir = 4
@@ -953,6 +969,9 @@
 /turf/open/floor/prison/plate,
 /area/space)
 "hH" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth,
 /area/plenoda/engineering/airbridge)
 "hL" = (
@@ -1226,6 +1245,12 @@
 	dir = 1
 	},
 /area/plenoda/engineering/acontrol)
+"jR" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 8
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "jT" = (
 /obj/structure/prop/urban/signs/high_voltage,
 /turf/closed/wall/r_wall/prison_unmeltable/yellow,
@@ -1594,6 +1619,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/space)
+"mZ" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 5
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "nb" = (
 /obj/structure/prop/urban/misc/trash/blue,
 /obj/effect/spawner/random/misc/trash,
@@ -2154,6 +2185,12 @@
 /obj/effect/turf_decal/warning_stripes/linethick,
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
+"qO" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 4
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "qQ" = (
 /obj/structure/filingcabinet/security{
 	pixel_w = -8
@@ -2435,6 +2472,10 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/security/checkpointsouth)
+"sM" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass,
+/turf/open/floor/prison/plate,
+/area/space)
 "sP" = (
 /turf/closed/wall/prison/yellow,
 /area/plenoda/engineering/security/checkpointsouth)
@@ -3431,6 +3472,10 @@
 "Ac" = (
 /turf/open/floor/lightplate,
 /area/plenoda/operations/atc)
+"Ad" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/reactor/maint)
 "Ae" = (
 /obj/effect/turf_decal/caution{
 	dir = 4
@@ -3562,6 +3607,12 @@
 /obj/docking_port/stationary/marine_dropship/lz1,
 /turf/open/floor/plating,
 /area/plenoda/hangar/lz_one)
+"Bs" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 9
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "Bt" = (
 /obj/machinery/power/apc/drained,
 /turf/open/floor/prison/plate,
@@ -4099,6 +4150,12 @@
 "FJ" = (
 /turf/open/openspace,
 /area/plenoda/civ/mall)
+"FK" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "FM" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/shrink_ccw{
 	dir = 1
@@ -4120,6 +4177,11 @@
 "FQ" = (
 /turf/open/floor/lightplate,
 /area/plenoda/civ/med/pharmacy)
+"FR" = (
+/obj/structure/bed/bunkbed,
+/obj/item/flash,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
 "FT" = (
 /turf/open/floor/lightplate,
 /area/plenoda/engineering/f3/mall/storage)
@@ -4321,6 +4383,12 @@
 "Hz" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/plenoda/engineering/reactor/control)
+"HA" = (
+/obj/effect/turf_decal/warning_stripes/thick/corner{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "HD" = (
 /turf/closed/wall/kutjevo,
 /area/plenoda/civ/med/pharmacy)
@@ -5333,6 +5401,13 @@
 /obj/effect/turf_decal/stencil/letter_r,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/entry)
+"PI" = (
+/obj/structure/table,
+/obj/item/storage/secure/briefcase,
+/obj/item/taperecorder,
+/obj/item/book/manual/security_space_law,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
 "PJ" = (
 /turf/closed/mineral/smooth/bigred,
 /area/plenoda/meteor)
@@ -5758,6 +5833,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/hangar)
+"SW" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/plenoda/engineering/airbridge)
 "Tc" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 6
@@ -6023,6 +6104,12 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/hangar/lz_one)
+"UO" = (
+/obj/effect/turf_decal/warning_stripes/thick{
+	dir = 10
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "UP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/secure_data,
@@ -6629,6 +6716,12 @@
 /obj/effect/urban/decal/road/road_edge/eight,
 /turf/open/floor/plate,
 /area/plenoda/engineering/airbridge/south)
+"Zn" = (
+/obj/machinery/door/airlock/multi_tile/mainship/engineering/glass{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/airbridge/north)
 "Zp" = (
 /obj/machinery/door/airlock/multi_tile/mainship/engineering/free_access,
 /turf/open/floor/prison/plate,
@@ -6681,6 +6774,14 @@
 	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/entry)
+"ZK" = (
+/obj/structure/table,
+/obj/item/storage/donut_box{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/security/brig)
 "ZV" = (
 /obj/structure/bed/chair/sofa/left,
 /turf/open/floor/prison/plate,
@@ -9632,26 +9733,26 @@ fn
 yW
 fn
 fn
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
-La
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+qO
+HA
 Cm
 Jl
 Jl
@@ -9803,7 +9904,7 @@ Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -9955,7 +10056,7 @@ Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -10107,7 +10208,7 @@ Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -10259,7 +10360,7 @@ Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -10392,26 +10493,26 @@ fn
 fn
 fn
 fn
-La
-La
-La
-La
-La
+jR
+jR
+jR
+jR
+UO
 Vt
 Vt
 Vt
 Vt
-La
-La
-La
-La
-La
-La
+Bs
+jR
+jR
+jR
+jR
+UO
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -10548,22 +10649,22 @@ Bg
 Bg
 Bg
 Bg
-La
+jR
 Vt
 Vt
 Vt
 Vt
-La
+jR
 Bg
 Bg
 Bg
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -10710,12 +10811,12 @@ La
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -10862,12 +10963,12 @@ La
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11014,12 +11115,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11166,12 +11267,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11318,12 +11419,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11470,12 +11571,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11622,12 +11723,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11774,12 +11875,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -11926,12 +12027,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -12078,12 +12179,12 @@ ci
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -12230,12 +12331,12 @@ La
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -12382,12 +12483,12 @@ La
 La
 La
 Bg
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -12534,12 +12635,12 @@ fR
 fR
 fR
 ew
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -12686,12 +12787,12 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 XP
 XP
@@ -12830,7 +12931,7 @@ QB
 QB
 QB
 QB
-QB
+Ad
 Ch
 Ch
 Ch
@@ -12838,12 +12939,12 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -12990,12 +13091,12 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Jl
 Jl
@@ -13134,7 +13235,7 @@ QB
 QB
 QB
 QB
-QB
+kG
 Ch
 Ch
 Ch
@@ -13142,12 +13243,12 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
+FK
 Cm
 Wd
 Wd
@@ -13286,7 +13387,7 @@ QB
 QB
 QB
 QB
-QB
+Ad
 Ch
 Ch
 Ch
@@ -13294,13 +13395,13 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
 Vt
-La
-La
+mZ
+qO
 hH
 hH
 hH
@@ -13446,7 +13547,7 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
@@ -13598,7 +13699,7 @@ Ch
 Ch
 Ch
 ew
-La
+fr
 Vt
 Vt
 Vt
@@ -13746,11 +13847,11 @@ Wv
 fR
 fR
 Ch
-Ch
+gM
 fR
 fR
 ew
-La
+fr
 Vt
 Vt
 Vt
@@ -13902,7 +14003,7 @@ Iu
 Iu
 Iu
 Ca
-La
+fr
 Vt
 Vt
 Vt
@@ -14055,43 +14156,43 @@ Iu
 Iu
 Ca
 La
-La
-La
-La
-La
-La
-La
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
-hH
+jR
+jR
+jR
+jR
+jR
+jR
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
 oz
 yd
 JX
@@ -14209,7 +14310,7 @@ Ca
 Bg
 Bg
 La
-La
+Zn
 Bg
 Bg
 Cm
@@ -14509,7 +14610,7 @@ Iu
 Iu
 Iu
 Iu
-Iu
+sM
 Iu
 Iu
 Iu
@@ -23777,7 +23878,7 @@ Jl
 Jl
 Jl
 eE
-bA
+FR
 VA
 VA
 ec
@@ -24387,9 +24488,9 @@ Iu
 Iu
 Nk
 VA
-VA
-VA
-VA
+ZK
+nc
+PI
 VA
 VA
 wY
@@ -24539,9 +24640,9 @@ Iu
 Iu
 VA
 VA
+ak
 VA
-VA
-VA
+AG
 VA
 VA
 To
