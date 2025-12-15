@@ -75,6 +75,7 @@
 
 /area/plenoda/engineering/changeroom
 	name = "Engineering Staff Intake"
+	icon_state = "locker"
 
 /area/plenoda/engineering/decont
 	name = "Decontamination Room"
@@ -87,6 +88,27 @@
 /area/plenoda/engineering/decont/east
 
 /area/plenoda/engineering/decont/north
+
+/area/plenoda/engineering/decont/f2
+
+/area/plenoda/engineering/decont/f2/west
+
+/area/plenoda/engineering/decont/f2/east
+
+/area/plenoda/engineering/gas
+	name = "Atmospherics Control Room"
+	icon_state = "atmos"
+
+/area/plenoda/engineering/gas/storage
+	name = "Atmospherics Storage"
+
+/area/plenoda/engineering/gas/storage/two
+
+/area/plenoda/engineering/gas/pump
+	name = "Atmospherics Pump Room"
+
+/area/plenoda/engineering/gas/equipment
+	name = "Atmospherics Equipment"
 
 /area/plenoda/engineering/radsuit
 	name = "Changing Room"
@@ -123,6 +145,7 @@
 	name = "Cargo Airbridge"
 	icon_state = "shuttlered"
 
+//2 floor
 /area/plenoda/engineering/airbridge/control
 	name = "Cargo Security Checkpoint"
 	icon_state = "shuttlegrn"
@@ -130,10 +153,16 @@
 /area/plenoda/engineering/airbridge/control/defunct
 	name = "Secondary Airbridge Control Room"
 
+/area/plenoda/engineering/airbridge/control/defunct/two
+
 //2 floor
+//the room with a catwalk leading into it (on the 2nd floor) is meant to be a crate control room
 /area/plenoda/engineering/cargo
 	name = "Primary Storage"
 	icon_state = "primarystorage"
+
+/area/plenoda/engineering/cargo/mall
+	name = "Mall Storage"
 
 /area/plenoda/engineering/cargo/confiscated
 	name = "Confiscated Cargo Storage"
@@ -141,6 +170,14 @@
 /area/plenoda/engineering/cargo/road
 	name = "Access Road"
 	icon_state = "away"
+
+/area/plenoda/engineering/cargo/road/f2
+
+/area/plenoda/engineering/cargo/road/f3
+
+//for openspace areas above the access road
+/area/plenoda/engineering/cargo/road/powered
+	requires_power = FALSE
 
 //underground area cuz radiation disrupts comms or something shrug
 /area/plenoda/engineering/reactor
@@ -150,6 +187,7 @@
 	ceiling = CEILING_UNDERGROUND_METAL
 
 //2 floor
+//red disk
 /area/plenoda/engineering/reactor/core
 	name = "Reactor Core"
 	ceiling = CEILING_DEEP_UNDERGROUND_METAL
@@ -165,8 +203,13 @@
 /area/plenoda/engineering/reactor/control/second
 	name = "Secondary Reactor Controls"
 
-/area/plenoda/engineering/reactor/control/third
-	name = "Tretiary Reactor Controls"
+/area/plenoda/engineering/reactor/smes
+	name = "Reactor SMES Room"
+	icon_state = "engine_smes"
+
+/area/plenoda/engineering/reactor/gas
+	name = "Reactor Gas Loop Monitoring"
+	icon_state = "engine_waste"
 
 /area/plenoda/engineering/reactor/observe
 	name = "Reactor Observation Room"
@@ -175,7 +218,19 @@
 /area/plenoda/engineering/reactor/maint/turbine
 	name = "Turbine Hall"
 
-/area/plenoda/engineering/reactor/maint/
+/area/plenoda/engineering/maintenance
+	name = "Maintenance Tunnels"
+	icon_state = "maint_engineering"
+
+/area/plenoda/engineering/maintenance/f2
+
+/area/plenoda/engineering/maintenance/f2/north
+	name = "Mall Maintenance Tunnels"
+
+/area/plenoda/engineering/maintenance/f3
+
+/area/plenoda/engineering/maintenance/f3/north
+	name = "Mall Mainteanance Tunnels"
 
 ///////////SECURITY///////////
 /area/plenoda/security
@@ -195,6 +250,9 @@
 /area/plenoda/security/checkpoint/engi/south
 	name = "South Engineering Security Checkpoint"
 
+/area/plenoda/security/checkpoint/ops
+	name = "Mainframe Security Checkpoint"
+
 /area/plenoda/security/brig
 	name = "Holding Cells"
 	icon_state = "brig"
@@ -207,3 +265,143 @@
 	name = "Inspection Room"
 	icon_state = "syndie-control"
 
+/area/plenoda/security/forensics
+	name = "Forensics Room"
+	icon_state = "Tactical"
+
+///////////OPERATIONS///////////
+/area/plenoda/operations
+	name = "Generic Operations Area"
+	icon_state = "blue-red-d"
+	minimap_color = MINIMAP_AREA_COMMAND
+
+/area/plenoda/operations/atc
+	name = "Space Traffic Control"
+	icon_state = "tcomms"
+
+/area/plenoda/operations/atc/server
+	name = "Space Traffic Control Servers"
+
+/area/plenoda/operations/atc/breakroom
+	name = "Space Traffic Control Breakroom"
+
+/area/plenoda/operations/restroom
+	name = "Operations Restrooms"
+	icon_state = "restrooms"
+
+/area/plenoda/operations/storage
+	name = "Operations Storage Area"
+	icon_state = "auxstorage"
+
+/area/plenoda/operations/storage/closet
+	name = "Storage Closet"
+
+/area/plenoda/operations/storage/closet/two
+
+/area/plenoda/operations/storage/closet/three
+
+/area/plenoda/operations/storage/closet/four
+
+/area/plenoda/operations/changeroom
+	name = "Operations Staff Intake"
+	icon_state = "locker"
+
+/area/plenoda/operations/storage/bridge
+	name = "Server Repair Closet"
+
+/area/plenoda/operations/offices
+	name = "Operations Offices"
+	icon_state = "law"
+
+/area/plenoda/operations/admin
+	name = "Station Administrator's Office"
+	icon_state = "centcom"
+
+/area/plenoda/operations/hallway
+	name = "Operations Hallway"
+	icon_state = "blueold"
+
+/area/plenoda/operations/hallway/south
+	name = "South Operations Hallway"
+
+/area/plenoda/operations/hallway/west
+	name = "West Operations Hallway"
+
+/area/plenoda/operations/hallway/east
+	name = "East Operations Hallway"
+
+/area/plenoda/operations/hallway/north
+	name = "North Operations Hallway"
+
+/area/plenoda/operations/conference
+	name = "Conference Room"
+	icon_state = "conference"
+
+/area/plenoda/operations/tech
+	name = "Chief Engineer's Office"
+	icon_state = "thunder"
+
+/area/plenoda/operations/janitor
+	name = "Janitor's Office"
+	icon_state = "janitor"
+
+/area/plenoda/operations/archive
+	name = "Station Records"
+	icon_state = "tcomsatlob"
+
+/area/plenoda/operations/sec
+	name = "Head of Security's Office"
+	icon_state = "interrogation"
+
+/area/plenoda/operations/interrogation
+	name = "Interrogation Room"
+	icon_state = "interrogation"
+
+/area/plenoda/operations/vault
+	name = "Vault"
+	icon_state = "hangar"
+
+/area/plenoda/operations/breakroom
+	name = "Operations Breakroom"
+	icon_state = "crew_quarters"
+
+/area/plenoda/operations/bridge
+	name = "Bridge"
+	icon_state = "server"
+
+/area/plenoda/operations/bridge/server
+	name = "Communications Servers"
+
+/area/plenoda/operations/bridge/comms
+	name = "Communications Office"
+
+/area/plenoda/operations/bridge/comms/super
+	name = "Commincations Supervisor Office"
+
+/area/plenoda/operations/bridge/decont
+	name = "Operations Decontamination"
+
+/area/plenoda/operations/bridge/emergency
+	name = "Emergency Subsystems Control Room"
+
+/area/plenoda/operations/bridge/cameras
+	name = "CCTV Control Center"
+
+//blue disk
+/area/plenoda/operations/mainframe
+	name = "Supercomputer Chamber"
+	icon_state = "ai_server"
+
+/area/plenoda/operations/mainframe/control
+	name = "Supercomputer Control Center"
+
+///////////CIVILIAN///////////
+/area/plenoda/civilian
+	name = "Generic Civilian Area"
+	icon_state = "blue-red2"
+	minimap_color = MINIMAP_AREA_LIVING
+
+//2 floor
+/area/plenoda/civilian/mall
+	name = "Shopping Mall"
+	icon_state = "lava_civ"
