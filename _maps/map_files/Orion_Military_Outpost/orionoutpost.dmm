@@ -9347,7 +9347,7 @@
 /turf/open/ground/grass/weedable/patch/grassyellow,
 /area/orion_outpost/ground/underground/caveS)
 "Tv" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/mainship/mono,
 /area/orion_outpost/surface/building/command)
 "Tw" = (
@@ -9511,7 +9511,7 @@
 /turf/open/floor/mainship/sterile/dark,
 /area/orion_outpost/ground/outposts)
 "Uj" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/mono,
@@ -9687,7 +9687,7 @@
 	},
 /area/orion_outpost/surface/building/cargo)
 "Vf" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /obj/structure/cable,

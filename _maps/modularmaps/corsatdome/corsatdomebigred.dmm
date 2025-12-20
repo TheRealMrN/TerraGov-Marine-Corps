@@ -392,7 +392,7 @@
 /obj/effect/turf_decal/tile/corsatstraight/blue{
 	dir = 1
 	},
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Sigma Dome Control"
 	},

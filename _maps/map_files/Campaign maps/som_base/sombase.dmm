@@ -8738,7 +8738,7 @@
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/rocinante_base/ground/underground/caveCent)
 "loG" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/mainship/mono,
 /area/rocinante_base/surface/building/administration/command)
 "loQ" = (

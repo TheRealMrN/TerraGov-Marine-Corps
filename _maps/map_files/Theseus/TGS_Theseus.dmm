@@ -8185,7 +8185,7 @@
 /obj/machinery/door/firedoor/mainship{
 	dir = 2
 	},
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/bridge)
@@ -8798,7 +8798,7 @@
 /turf/open/floor/mainship/mono,
 /area/mainship/hull/starboard_hull)
 "eDN" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/mono,
@@ -14099,7 +14099,7 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/repair_bay)
 "mVI" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /obj/machinery/door/firedoor/mainship{
 	dir = 2
 	},
@@ -17962,7 +17962,7 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/command/cic)
 "tmP" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "\improper Officer's Study"
 	},
 /obj/machinery/door/firedoor/multi_tile,
@@ -18248,7 +18248,7 @@
 	dir = 2
 	},
 /obj/structure/cable,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /turf/open/floor/mainship/silver{
 	dir = 8
 	},
@@ -20690,7 +20690,7 @@
 /turf/open/floor/mainship/cargo,
 /area/mainship/engineering/engine_core)
 "xWG" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /obj/machinery/door/firedoor/mainship,

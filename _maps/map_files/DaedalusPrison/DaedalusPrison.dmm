@@ -10616,7 +10616,7 @@
 /turf/open/floor/prison,
 /area/daedalusprison/inside/centralhalls)
 "iOA" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2;
 	name = "Chief Warden's Office"
 	},
@@ -19929,7 +19929,7 @@
 /turf/open/floor/prison/sterilewhite,
 /area/daedalusprison/inside/medical)
 "qer" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Meeting Hall"
 	},
 /turf/open/floor/tile/white,
@@ -20912,7 +20912,7 @@
 	},
 /area/daedalusprison/inside/hydroponics)
 "qWX" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Meeting Hall"
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -25317,7 +25317,7 @@
 /turf/open/floor/prison/darkred/full,
 /area/daedalusprison/inside/centralhalls)
 "uuP" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Nanotrasen Liason Office"
 	},

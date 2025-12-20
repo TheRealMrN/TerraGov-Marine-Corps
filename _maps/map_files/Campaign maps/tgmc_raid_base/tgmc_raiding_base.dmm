@@ -8014,7 +8014,7 @@
 /turf/open/floor/mainship/floor,
 /area/campaign/tgmc_raiding/underground/general/prep)
 "Ds" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/mainship/floor,
 /area/campaign/tgmc_raiding/underground/command/east)
 "Dt" = (
@@ -11152,7 +11152,7 @@
 /turf/open/liquid/water/river,
 /area/campaign/tgmc_raiding/underground/maintenance/sewer)
 "OA" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/floor,
@@ -11198,7 +11198,7 @@
 /turf/open/floor/plating/ground/concrete,
 /area/campaign/tgmc_raiding/underground/cargo)
 "OJ" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/blue,
@@ -11224,7 +11224,7 @@
 	},
 /area/campaign/tgmc_raiding/underground/general/hallway/west)
 "OO" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/floor,
@@ -11479,7 +11479,7 @@
 /turf/open/floor/tile/showroom,
 /area/campaign/tgmc_raiding/underground/living/bathroom/south)
 "PI" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/blue,

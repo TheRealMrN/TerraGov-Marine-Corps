@@ -946,7 +946,7 @@
 /turf/open/floor,
 /area/lawankaoutpost/colony/hydroponics)
 "aLs" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Canteen"
 	},
@@ -1172,7 +1172,7 @@
 /turf/open/ground/grass/weedable,
 /area/lawankaoutpost/outside/central)
 "aVX" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Executive Office"
 	},
 /turf/open/floor/tile/white,
@@ -2121,7 +2121,7 @@
 /turf/open/floor/tile/dark,
 /area/lawankaoutpost/caves/nanotrasen_lab)
 "bLX" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Canteen"
 	},
@@ -2199,7 +2199,7 @@
 /turf/open/floor/tile/dark2,
 /area/lawankaoutpost/colony/mining)
 "bQi" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Storage"
 	},
 /turf/open/floor/tile/dark,
@@ -3084,7 +3084,7 @@
 /turf/open/floor,
 /area/lawankaoutpost/colony/landingzonetwo)
 "cCd" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Canteen"
 	},
@@ -4192,7 +4192,7 @@
 	},
 /area/lawankaoutpost/colony/biologics)
 "dwP" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Office"
 	},
 /turf/open/floor/tile/dark2,
@@ -4896,7 +4896,7 @@
 /turf/open/floor/tile/dark2,
 /area/lawankaoutpost/colony/engineering)
 "edV" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Kitchen"
 	},
 /turf/open/floor/grayscale/black,
@@ -6428,7 +6428,7 @@
 /turf/open/floor/tile/red/full,
 /area/lawankaoutpost/colony/operations_administration)
 "fqj" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2;
 	name = "\improper Operations Office"
 	},
@@ -7671,7 +7671,7 @@
 /turf/open/floor/tile/green/full,
 /area/lawankaoutpost/colony/hydroponics)
 "gjA" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Canteen"
 	},
@@ -10644,7 +10644,7 @@
 /turf/open/floor/tile/dark/purple2,
 /area/lawankaoutpost/caves/nanotrasen_lab)
 "iUW" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Freezer"
 	},
@@ -12567,7 +12567,7 @@
 	},
 /area/lawankaoutpost/colony/hydroponics)
 "kzq" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Meeting Hall"
 	},
 /obj/structure/cable,
@@ -16622,7 +16622,7 @@
 /turf/open/floor/plating/ground/dirt,
 /area/lawankaoutpost/caves/west)
 "nKJ" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Storage"
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -18634,7 +18634,7 @@
 /turf/open/floor/tile/white,
 /area/lawankaoutpost/colony/operations_hall)
 "poI" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Kitchen"
 	},
 /turf/open/floor/tile/white,
@@ -19134,7 +19134,7 @@
 	},
 /area/lawankaoutpost/colony/biologics)
 "pGa" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Meeting Hall"
 	},
 /turf/open/floor/tile/white,
@@ -20624,7 +20624,7 @@
 /turf/open/floor,
 /area/lawankaoutpost/colony/recdorms)
 "qXI" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Freezer"
 	},
 /turf/open/floor/tile/white,
@@ -22223,7 +22223,7 @@
 /turf/open/floor/plating/ground/dirt,
 /area/lawankaoutpost/outside/west)
 "smi" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Kitchen"
 	},
 /obj/structure/cable,
@@ -24823,7 +24823,7 @@
 /turf/open/floor/plating/ground/dirtgrassborder/autosmooth/buildable,
 /area/lawankaoutpost/outside/northeast)
 "upq" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Storage"
 	},
@@ -24999,7 +24999,7 @@
 /turf/open/floor/tile/white,
 /area/lawankaoutpost/colony/operations_hall)
 "uxr" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations Freezer"
 	},
 /turf/open/floor,
@@ -26594,7 +26594,7 @@
 /turf/open/floor/plating/ground/dirt,
 /area/lawankaoutpost/outside/east)
 "vMg" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Canteen"
 	},
@@ -27051,7 +27051,7 @@
 	},
 /area/lawankaoutpost/colony/southdorms)
 "wes" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations Executive Office"
 	},
@@ -28189,7 +28189,7 @@
 /turf/open/floor,
 /area/lawankaoutpost/colony/hydroponics)
 "xaD" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2;
 	name = "\improper Operations Office"
 	},

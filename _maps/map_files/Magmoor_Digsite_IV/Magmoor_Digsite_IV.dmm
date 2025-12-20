@@ -325,7 +325,7 @@
 /turf/open/floor/tile/purple,
 /area/magmoor/civilian/dorms)
 "alG" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Colony Offices"
 	},
@@ -2713,7 +2713,7 @@
 /turf/open/floor/plating,
 /area/magmoor/engi/thermal)
 "bOl" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Colony Offices"
 	},
 /turf/open/floor/mainship/blue{
@@ -4061,7 +4061,7 @@
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/magmoor/compound/east)
 "cOF" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Colony Offices"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -4400,7 +4400,7 @@
 	},
 /area/magmoor/medical/storage)
 "daO" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "Hazardous Materials"
 	},
 /turf/open/floor/mainship/sterile/purple,
@@ -6245,7 +6245,7 @@
 /turf/open/floor/wood,
 /area/magmoor/civilian/dorms)
 "enI" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Colony Offices"
 	},
@@ -12501,7 +12501,7 @@
 /turf/open/floor/mainship/sterile/white,
 /area/magmoor/medical/surgery)
 "iKv" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Colony Offices"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -18814,7 +18814,7 @@
 	},
 /area/magmoor/engi)
 "nfe" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Colony Offices"
 	},
@@ -24799,7 +24799,7 @@
 	},
 /area/magmoor/landing/two)
 "rub" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Colony Offices"
 	},
@@ -34452,7 +34452,7 @@
 /turf/open/floor/mainship/mono,
 /area/magmoor/cargo/processing/south)
 "xYQ" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Colony Offices"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,

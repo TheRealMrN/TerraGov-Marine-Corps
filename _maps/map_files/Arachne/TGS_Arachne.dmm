@@ -10084,7 +10084,7 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/engineering/upper_engine_monitoring)
 "inM" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 8
 	},
 /obj/machinery/door/firedoor/multi_tile,
@@ -10531,7 +10531,7 @@
 /turf/open/floor/mainship/floor,
 /area/mainship/squads/req)
 "iGh" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /obj/machinery/door/poddoor/mainship/open/cic{
 	dir = 2
 	},
@@ -13967,7 +13967,7 @@
 	},
 /area/mainship/hallways/port_ert)
 "lto" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -22502,7 +22502,7 @@
 	},
 /area/mainship/living/cryo_cells)
 "sho" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2
 	},
 /obj/structure/cable,

@@ -73247,7 +73247,7 @@
 	},
 /area/lv759/outdoors/landing_zone_2)
 "ndQ" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "Reinforced Airlock"
 	},
 /obj/structure/cable,
@@ -87824,7 +87824,7 @@
 /turf/open/floor/urban/metal/zbrownfloor_full,
 /area/lv759/indoors/meridian/meridian_factory)
 "pJI" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Reinforced Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -112194,7 +112194,7 @@
 /turf/open/floor/podhatch/floor,
 /area/lv759/indoors/nt_research_complex/mainlabs)
 "uap" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Reinforced Airlock"
 	},
 /obj/structure/cable,
@@ -134007,7 +134007,7 @@
 	},
 /area/lv759/indoors/colonial_marshals/hallway_central)
 "xMR" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Reinforced Airlock"
 	},
 /turf/open/floor/officetiles,

@@ -68,7 +68,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/airbridge/control)
 "as" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 4
 	},
 /turf/open/floor/prison/plate,
@@ -94,7 +94,7 @@
 /obj/effect/turf_decal/tile/transparent/dark_blue/half/contrasted{
 	dir = 8
 	},
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /turf/open/floor/mainship/mono,
 /area/plenoda/operations/hallway/south)
 "az" = (
@@ -217,7 +217,7 @@
 /turf/open/floor/mainship/mono,
 /area/plenoda/operations/hallway/west)
 "bd" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 5
 	},
 /turf/open/floor/prison/plate,
@@ -1870,7 +1870,7 @@
 /turf/open/floor/lightplate,
 /area/plenoda/civilian/arcade)
 "kw" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /turf/open/floor/mainship/mono,
 /area/plenoda/operations/hallway/west)
 "ky" = (
@@ -2020,7 +2020,7 @@
 /turf/open/floor/glass/reinforced,
 /area/plenoda/operations/atc)
 "lq" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /turf/open/floor/iron/dark,
 /area/plenoda/operations/hallway/south)
 "lr" = (
@@ -2655,7 +2655,7 @@
 /turf/open/floor/prison/darkred,
 /area/plenoda/security/brig)
 "oM" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 1
 	},
 /turf/open/floor/prison/plate,
@@ -4527,7 +4527,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/airbridge/control)
 "zD" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 4
 	},
 /turf/open/floor/prison/plate,
@@ -5295,12 +5295,6 @@
 	},
 /turf/open/floor/plate,
 /area/plenoda/engineering/lz1)
-"DQ" = (
-/obj/effect/turf_decal/warning_stripes/thick/corner{
-	dir = 1
-	},
-/turf/open/floor/prison/plate,
-/area/plenoda/engineering/cargo/road)
 "DR" = (
 /turf/closed/wall/kutjevo,
 /area/plenoda/civilian/mall)
@@ -5859,7 +5853,7 @@
 /turf/closed/wall/mainship/gray,
 /area/plenoda/operations/offices)
 "GV" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /turf/open/floor/mainship/mono,
 /area/plenoda/operations/hallway/south)
 "GW" = (
@@ -5977,9 +5971,6 @@
 /turf/open/floor/wood,
 /area/plenoda/operations/conference)
 "HJ" = (
-/obj/effect/turf_decal/warning_stripes/thick/corner{
-	dir = 4
-	},
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/cargo/road)
 "HK" = (
@@ -6782,7 +6773,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/transformers)
 "Mk" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 8
 	},
 /turf/open/floor/prison/plate,
@@ -7420,9 +7411,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/airbridge/control/defunct)
 "PU" = (
-/obj/effect/turf_decal/warning_stripes/thick{
-	dir = 8
-	},
+/obj/structure/platform,
 /turf/open/floor/prison/plate,
 /area/plenoda/elevator)
 "PX" = (
@@ -7522,7 +7511,7 @@
 /turf/open/floor/prison/blackfloor,
 /area/plenoda/engineering/airbridge)
 "QG" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 9
 	},
 /turf/open/floor/prison/plate,
@@ -8094,9 +8083,11 @@
 /turf/open/floor/plating/plating_catwalk/prison/alt,
 /area/plenoda/engineering/transformers)
 "TN" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/iron/dark/herringbone,
-/area/plenoda/operations/hallway/south)
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/open/floor/prison/plate,
+/area/plenoda/elevator)
 "TQ" = (
 /obj/structure/platform{
 	dir = 1
@@ -8414,7 +8405,7 @@
 	},
 /area/plenoda/engineering/airbridge/control/defunct)
 "VL" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 10
 	},
 /turf/open/floor/prison/plate,
@@ -8640,7 +8631,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/north)
 "Xa" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2
 	},
 /turf/open/floor/mainship/mono,
@@ -8840,7 +8831,7 @@
 	},
 /area/plenoda/security/checkpoint/engi/north)
 "Ya" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2
 	},
 /turf/open/floor/lightplate,
@@ -8951,7 +8942,7 @@
 /turf/open/floor/plating/plating_catwalk/prison/alt,
 /area/plenoda/engineering/transformers)
 "YM" = (
-/obj/effect/turf_decal/warning_stripes/thick,
+/obj/structure/platform,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/cargo/road)
 "YN" = (
@@ -9129,7 +9120,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/hallway/center)
 "ZO" = (
-/obj/effect/turf_decal/warning_stripes/thick{
+/obj/structure/platform{
 	dir = 8
 	},
 /turf/open/floor/prison/plate,
@@ -12122,7 +12113,7 @@ zD
 zD
 zD
 zD
-DQ
+HJ
 PL
 Jl
 Jl
@@ -13024,7 +13015,7 @@ Pc
 Pc
 Pc
 Pc
-PU
+TN
 sL
 sL
 sL
@@ -13171,12 +13162,12 @@ qn
 vi
 vi
 vi
-vi
+PU
 Pc
 Pc
 Pc
 Pc
-vi
+TN
 vi
 vi
 vi
@@ -13323,12 +13314,12 @@ qn
 vi
 vi
 vi
-vi
+PU
 Pc
 Pc
 Pc
 Pc
-vi
+TN
 vi
 vi
 vi
@@ -41502,7 +41493,7 @@ HA
 HA
 HA
 HA
-TN
+Yx
 OD
 OD
 OD
@@ -51184,7 +51175,7 @@ Rv
 Rv
 Rv
 Rv
-Pl
+Rv
 rD
 OJ
 OJ
@@ -51336,7 +51327,7 @@ Rv
 Rv
 Rv
 Rv
-Pl
+Rv
 rD
 rD
 rD

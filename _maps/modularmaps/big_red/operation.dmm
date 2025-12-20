@@ -118,7 +118,7 @@
 /turf/open/floor/tile/dark,
 /area/bigredv2/outside/admin_building)
 "fU" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /turf/open/floor,
@@ -223,7 +223,7 @@
 	},
 /area/bigredv2/outside/admin_building)
 "kc" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations"
 	},
@@ -643,7 +643,7 @@
 "yN" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /turf/open/floor/tile/white,
@@ -683,7 +683,7 @@
 /turf/open/floor/carpet,
 /area/bigredv2/outside/admin_building)
 "Ae" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations"
 	},
@@ -713,7 +713,7 @@
 "AX" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /turf/open/floor,

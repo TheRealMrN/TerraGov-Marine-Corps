@@ -2213,7 +2213,7 @@
 /turf/open/floor/grayscale/white,
 /area/corsat/gamma/sigmaremote)
 "bbB" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -3325,7 +3325,7 @@
 /turf/open/floor/grayscale/round/black,
 /area/corsat/sigma/cargo)
 "bCK" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "Hangar Office"
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -5546,7 +5546,7 @@
 /turf/open/floor/grayscale/black,
 /area/corsat/gamma/hangar/arrivals)
 "cyV" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 1;
 	name = "Administration Office"
 	},
@@ -6227,7 +6227,7 @@
 	},
 /area/corsat/gamma/sigmaremote)
 "cOd" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Data Office"
 	},
@@ -6301,7 +6301,7 @@
 /turf/open/floor/grayscale/darkgray,
 /area/corsat/omega/offices)
 "cPS" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -7674,7 +7674,7 @@
 /turf/open/floor/grayscale/round,
 /area/corsat/gamma/sigmaremote)
 "dvl" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "Hangar Office"
 	},
 /turf/open/floor/grayscale/darkgray,
@@ -8052,7 +8052,7 @@
 /turf/open/floor/plating,
 /area/corsat/gamma/hydroponics)
 "dDC" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "Flight Control"
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -10703,7 +10703,7 @@
 /turf/open/floor/grayscale/round/black,
 /area/corsat/sigma/cargo)
 "eNt" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -13523,7 +13523,7 @@
 /turf/open/floor/tile/lightred,
 /area/corsat/omega/biodome/two)
 "gce" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Airlock Control Office"
 	},
@@ -15217,7 +15217,7 @@
 /turf/open/floor/grayscale/black,
 /area/corsat/omega/security)
 "gOH" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -28917,7 +28917,7 @@
 /turf/open/floor/grayscale/black,
 /area/corsat/omega/maint)
 "mNu" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -32187,7 +32187,7 @@
 /turf/open/floor/grayscale/round/black,
 /area/corsat/gamma/airlock/north/id)
 "okk" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "Administration Office"
 	},
 /turf/open/floor/grayscale/darkgray,
@@ -40936,7 +40936,7 @@
 /turf/open/floor/grayscale/black,
 /area/corsat/sigma/hangar/arrivals)
 "rZL" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -41360,7 +41360,7 @@
 /turf/open/floor/grayscale/round,
 /area/corsat/gamma/medbay)
 "sid" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -41549,7 +41549,7 @@
 /turf/open/floor/grayscale/black,
 /area/corsat/omega/hallways)
 "slK" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -44575,7 +44575,7 @@
 /turf/open/floor/grayscale/round/lightgray,
 /area/corsat/sigma/south)
 "typ" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Omega Dome Control"
 	},
@@ -56146,7 +56146,7 @@
 /turf/open/floor/grayscale/round/lightgray,
 /area/corsat/sigma/south/complex)
 "yeA" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Airlock Control Office"
 	},

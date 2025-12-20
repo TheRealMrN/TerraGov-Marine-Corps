@@ -7684,7 +7684,7 @@
 /turf/open/floor/prison/bright_clean/two,
 /area/desert_dam/building/administration/control_room)
 "aYU" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 1;
 	name = "\improper Administration Control Room"
 	},
@@ -7825,7 +7825,7 @@
 	},
 /area/desert_dam/building/administration/control_room)
 "aZA" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "\improper Administration Hallway"
 	},
 /turf/open/floor/prison/bright_clean/two,
@@ -8206,7 +8206,7 @@
 /turf/open/floor/prison/bright_clean/two,
 /area/desert_dam/building/administration/archives)
 "bbn" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "\improper Administration Lobby"
 	},
 /turf/open/floor/prison/bright_clean/two,
@@ -8282,7 +8282,7 @@
 /turf/open/floor/prison/plate,
 /area/desert_dam/interior/dam_interior/west_tunnel)
 "bbW" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 1;
 	name = "\improper Administration Hallway"
 	},
@@ -8327,7 +8327,7 @@
 	},
 /area/desert_dam/building/administration/hallway)
 "bcr" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "\improper Breakroom"
 	},
 /turf/open/floor/prison/bright_clean/two,
@@ -16999,7 +16999,7 @@
 /turf/open/floor/plating/ground/desertdam/asphalt/tile,
 /area/desert_dam/exterior/valley/valley_crashsite)
 "ccr" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 1;
 	name = "\improper Administration Control Room"
 	},
@@ -53827,7 +53827,7 @@
 /turf/closed/wall/r_wall/unmeltable,
 /area/desert_dam/exterior/valley/valley_hydro)
 "tLK" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "\improper Administration Hallway"
 	},
 /obj/effect/decal/cleanable/dirt,

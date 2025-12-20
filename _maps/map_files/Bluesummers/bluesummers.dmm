@@ -8108,7 +8108,7 @@
 /turf/open/floor/plating,
 /area/bluesummers/inside/biodome)
 "hqe" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/plating/plating_catwalk,
 /area/bluesummers/caves/cryostorage/bridge)
 "hqi" = (
@@ -9332,7 +9332,7 @@
 /turf/open/floor/mainship/floor,
 /area/bluesummers/inside/luxury)
 "ios" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1
 	},
 /obj/structure/cable,
@@ -12794,7 +12794,7 @@
 	},
 /area/bluesummers/caves/cloning)
 "lbn" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
 /area/bluesummers/caves/cryostorage/bridge)
@@ -23512,7 +23512,7 @@
 /turf/open/floor/plating,
 /area/bluesummers/caves/northeast/indoor)
 "tLK" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /obj/structure/cable,
 /turf/open/floor/mainship/floor,
 /area/bluesummers/inside/eva)
@@ -24862,7 +24862,7 @@
 /turf/open/floor/tile/dark,
 /area/bluesummers/inside/industrial)
 "uOO" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
 /area/bluesummers/caves/cryostorage/tcomms)

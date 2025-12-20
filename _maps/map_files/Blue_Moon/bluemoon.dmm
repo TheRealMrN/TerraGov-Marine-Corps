@@ -11253,7 +11253,7 @@
 /turf/open/floor/tile/dark,
 /area/bluemoon/caves/facility/eta/e)
 "mKp" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /turf/open/floor/tile/dark,
@@ -17461,7 +17461,7 @@
 /turf/open/floor/tile/dark,
 /area/bluemoon/outside/w)
 "upR" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations";
 	dir = 2
 	},
@@ -18461,7 +18461,7 @@
 "vsu" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /turf/open/floor/tile/dark,
@@ -20546,7 +20546,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations";
 	dir = 2
 	},

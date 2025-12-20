@@ -4077,7 +4077,7 @@
 	dir = 2
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass,
 /turf/open/floor/mainship/mono,
 /area/mainship/command/cic)
 "eZp" = (

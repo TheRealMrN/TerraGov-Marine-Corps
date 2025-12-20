@@ -3822,7 +3822,7 @@
 /turf/open/floor/plating/ground/ice,
 /area/corsat/gamma/biodome)
 "QU" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	dir = 2;
 	name = "Gamma Dome Control"
 	},

@@ -4293,7 +4293,7 @@
 /turf/open/ground/coast,
 /area/lv624/ground/river3)
 "wp" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/plating,
 /area/lv624/lazarus/research/caves)
 "wr" = (

@@ -492,7 +492,7 @@
 /turf/open/floor/tile/dark,
 /area/bigredv2/outside/admin_building)
 "ud" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /obj/structure/cable,
@@ -883,7 +883,7 @@
 "KC" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	name = "\improper Operations"
 	},
 /turf/open/floor/tile/white,
@@ -1137,7 +1137,7 @@
 	},
 /area/bigredv2/outside/admin_building)
 "Tk" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 1;
 	name = "\improper Operations"
 	},

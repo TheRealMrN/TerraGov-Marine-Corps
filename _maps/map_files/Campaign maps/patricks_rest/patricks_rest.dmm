@@ -96,7 +96,7 @@
 	},
 /area/patricks_rest/surface/landing_pad)
 "aA" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access{
 	dir = 2
 	},
 /turf/open/floor/mainship/mono,
@@ -529,7 +529,7 @@
 /turf/open/floor/mainship/mono,
 /area/patricks_rest/surface/landing_pad)
 "cw" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/mainship/mono,
 /area/patricks_rest/surface/building/command)
 "cx" = (
@@ -5930,7 +5930,7 @@
 	},
 /area/patricks_rest/ground/colonyne)
 "BK" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/patricks_rest/surface/building/command)
@@ -7653,7 +7653,7 @@
 /area/patricks_rest/surface/building/medbay)
 "JY" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor/free_access,
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass/free_access,
 /turf/open/floor/mainship/mono,
 /area/patricks_rest/surface/building/command)
 "JZ" = (

@@ -4228,7 +4228,7 @@
 /turf/open/floor/grayscale/round/black,
 /area/corsat/theta/airlock/control)
 "XL" = (
-/obj/machinery/door/airlock/multi_tile/mainship/comdoor{
+/obj/machinery/door/airlock/multi_tile/mainship/comdoor/glass{
 	name = "Theta Dome Control"
 	},
 /obj/effect/turf_decal/tile/corsatstraight/blue{
