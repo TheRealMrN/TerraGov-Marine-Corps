@@ -24,6 +24,13 @@
 	name = "Main Cargo Elevator"
 	icon_state = "supplypod_flight"
 
+/area/plenoda/asteroid
+	name = "Asteroid"
+	always_unpowered = TRUE
+
+/area/plenoda/asteroid/outside
+	var/debuff_type = /datum/status_effect/spacefreeze/light
+
 ///////////ENGINEERING///////////
 
 /area/plenoda/engineering
@@ -156,20 +163,34 @@
 /area/plenoda/engineering/airbridge/control/defunct/two
 
 //2 floor
-//the room with a catwalk leading into it (on the 2nd floor) is meant to be a crate control room
+//the room with a catwalk leading into it (on the 2nd floor) is meant to be a crane control room
 /area/plenoda/engineering/cargo
 	name = "Primary Storage"
 	icon_state = "primarystorage"
 
+/area/plenoda/engineering/cargo/crane
+	name = "Cargo Crane"
+
 /area/plenoda/engineering/cargo/mall
+	name = "Mall Storage"
+
+/area/plenoda/engineering/cargo/mall/f3/
+
+/area/plenoda/engineering/cargo/mall/f3/two
 	name = "Mall Storage"
 
 /area/plenoda/engineering/cargo/confiscated
 	name = "Confiscated Cargo Storage"
 
+/area/plenoda/engineering/cargo/parking
+	name = "Parking Lot"
+
 /area/plenoda/engineering/cargo/road
 	name = "Access Road"
 	icon_state = "away"
+
+/area/plenoda/engineering/cargo/auction
+	name = "Auction Storage"
 
 /area/plenoda/engineering/cargo/road/f2
 
@@ -232,6 +253,28 @@
 /area/plenoda/engineering/maintenance/f3/north
 	name = "Mall Mainteanance Tunnels"
 
+/area/plenoda/engineering/maintenance/f3/center
+	name = "Pool Filtration"
+
+/area/plenoda/engineering/maintenance/f3/west
+	name = "Western Maintenance Tunnels"
+
+/area/plenoda/engineering/maintenance/f3/cult
+	name = "Northern Maintenance Tunnels"
+
+/area/plenoda/engineering/maintenance/f3/rooms
+	name = "Hotel Maintenance"
+
+/area/plenoda/engineering/maintenance/f3/lz
+	name = "Fuel Delivery Hall"
+
+/area/plenoda/engineering/maintenance/f3/impact
+	name = "Damaged Maintenance Tunnels"
+
+/area/plenoda/engineering/maintenance/f3/impact/outside
+	always_unpowered = TRUE
+	var/debuff_type = /datum/status_effect/spacefreeze/light
+
 ///////////SECURITY///////////
 /area/plenoda/security
 	name = "Generic Security Area"
@@ -241,7 +284,7 @@
 /area/plenoda/security/checkpoint
 	name = "Generic Security Checkpoint"
 
-/area/plenoda/security/checkpoint/engi/
+/area/plenoda/security/checkpoint/engi
 	name = "Generic Engineering Security Checkpoint"
 
 /area/plenoda/security/checkpoint/engi/north
@@ -250,8 +293,17 @@
 /area/plenoda/security/checkpoint/engi/south
 	name = "South Engineering Security Checkpoint"
 
+/area/plenoda/security/checkpoint/engi/f3
+	name = "Maintenance Security Checkpoint"
+
 /area/plenoda/security/checkpoint/ops
 	name = "Mainframe Security Checkpoint"
+
+/area/plenoda/security/checkpoint/civ
+	name = "Library Security Checkpoint"
+
+/area/plenoda/security/checkpoint/civ/mall
+	name = "Mall Security Checkpoint"
 
 /area/plenoda/security/brig
 	name = "Holding Cells"
@@ -405,3 +457,87 @@
 /area/plenoda/civilian/mall
 	name = "Shopping Mall"
 	icon_state = "lava_civ"
+
+/area/plenoda/civilian/entry
+	name = "Reception"
+	icon_state = "entry"
+
+/area/plenoda/civilian/entry/breakroom
+	name = "Reception Breakroom"
+
+/area/plenoda/civilian/lz2
+	name = "Upper Space Port"
+	minimap_color = MINIMAP_AREA_LZ
+	area_flags = CANNOT_NUKE|NEAR_FOB|MARINE_BASE
+	icon_state = "landingzone2"
+
+/area/plenoda/civilian/restaurant
+	name = "Restraurant"
+	icon_state = "shuttlegrn2"
+
+/area/plenoda/civilian/kitchen
+	name = "Kitchen"
+	icon_state = "kitchen"
+
+/area/plenoda/civilian/restroom
+	name = "Restrooms"
+	icon_state = "restrooms"
+
+/area/plenoda/civilian/hotel
+	name = "Hotel"
+	icon_state = "lava_dorms"
+
+/area/plenoda/civilian/library
+	name = "Library"
+	icon_state = "library"
+
+/area/plenoda/civilian/pool
+	name = "Pool"
+	icon_state = "blue2"
+
+/area/plenoda/civilian/pool/shower
+	name = "Pool Showers"
+
+/area/plenoda/civilian/pool/shower/two
+
+/area/plenoda/civilian/pool/change
+	name = "Pool Changing Room"
+
+/area/plenoda/civilian/pool/change/two
+
+/area/plenoda/civilian/pool/bar
+	name = "Tiki Bar"
+
+/area/plenoda/civilian/auction
+	name = "Auction Hall"
+	icon_state = "anomaly"
+
+/area/plenoda/civilian/pharmacy
+	name = "Pharmacy"
+	icon_state = "medbay3"
+
+/area/plenoda/civilian/hospital
+	name = "Medical Bay"
+	icon_state = "medbay"
+
+/area/plenoda/civilian/arcade
+	name = "Arcade"
+	icon_state = "portico"
+
+/area/plenoda/civilian/hallway
+	name = "Generic Civilian Hallway"
+	icon_state = "purple"
+
+/area/plenoda/civilian/hallway/north
+	name = "Hotel Access Hallway"
+
+/area/plenoda/civilian/hallway/center
+	name = "Central Civilian Hallway"
+
+/area/plenoda/civilian/hallway/south
+	name = "South Civilian Hallway"
+
+//idk what to name this area, its a maint cult room
+/area/plenoda/civilian/cult
+	name = "What do I name this"
+	icon_state = "head_quarters"
