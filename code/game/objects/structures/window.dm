@@ -640,6 +640,10 @@
 	basestate = "prison_rwindow"
 	window_frame = /obj/structure/window_frame/prison/reinforced
 
+/obj/structure/window/framed/prison/reinforced/yellow
+	icon = 'icons/obj/smooth_objects/prison_rwindow_yellow.dmi'
+	window_frame = /obj/structure/window_frame/prison/reinforced/yellow
+
 /obj/structure/window/framed/prison/colony
 	name = "window"
 	icon = 'icons/obj/smooth_objects/prison_rwindow.dmi'
@@ -653,6 +657,10 @@
 	max_integrity = 200
 	//icon_state = "rwindow0_debug" //Uncomment to check hull in the map editor
 	icon_state = "window-invincible"
+
+/obj/structure/window/framed/prison/reinforced/hull/yellow
+	icon = 'icons/obj/smooth_objects/prison_rwindow_yellow.dmi'
+	window_frame = /obj/structure/window_frame/prison/reinforced/yellow
 
 /obj/structure/window/framed/prison/reinforced/hull/Initialize(mapload)
 	. = ..()

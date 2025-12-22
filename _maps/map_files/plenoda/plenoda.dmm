@@ -6475,6 +6475,13 @@
 /obj/structure/rack,
 /turf/open/floor/mainship,
 /area/plenoda/security/nukespotfloor1)
+"KE" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 4
+	},
+/obj/structure/window/framed/prison/reinforced/yellow,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/lz1)
 "KG" = (
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/staircase)
@@ -6654,6 +6661,10 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/lz1)
+"LC" = (
+/obj/structure/window/framed/prison/reinforced/hull,
+/turf/open/floor/prison/blackfloor,
+/area/plenoda/engineering/airbridge)
 "LD" = (
 /obj/effect/turf_decal/tile/transparent/dark_blue/anticorner/contrasted{
 	dir = 1
@@ -8005,7 +8016,7 @@
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/radsuit/west)
 "Tk" = (
-/obj/structure/window/framed/prison/reinforced/hull,
+/obj/structure/window/framed/prison/reinforced/hull/yellow,
 /turf/open/floor/prison/plate,
 /area/plenoda/engineering/lz1)
 "Tl" = (
@@ -8061,6 +8072,13 @@
 /obj/structure/prop/mainship/shieldwall,
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/plenoda/asteroid)
+"TA" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/obj/structure/window/framed/prison/reinforced/yellow,
+/turf/open/floor/prison/plate,
+/area/plenoda/engineering/lz1)
 "TD" = (
 /turf/closed/wall/r_wall/prison,
 /area/plenoda/engineering/reactor/maint)
@@ -15943,7 +15961,7 @@ QF
 QF
 QF
 QF
-QF
+LC
 QF
 QF
 MS
@@ -17459,11 +17477,11 @@ sG
 Na
 vs
 ce
-ce
-ce
-ce
-ce
-ce
+TA
+TA
+TA
+TA
+TA
 ce
 ce
 ce
@@ -17611,11 +17629,11 @@ ux
 wn
 dc
 BO
-PH
-PH
-PH
-PH
-PH
+KE
+KE
+KE
+KE
+KE
 PH
 PH
 PH
