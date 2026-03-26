@@ -7,7 +7,7 @@
 	},
 	"quickbuilds": 2500,
 	"armor": "prison",
-	"announce_text": "A recreational station in the nearby star system has sent out a distress signal after a collision with a small meteor. The survivors have managed to lock down the upper floors of the station, making them safe, but the lower floors are still infested with a hostile alien species. TGMC, prepare for deployment!",
+	"announce_text": "A recreational station in the nearby star system has sent out a distress signal after a collision with a small meteor. After several hours, a second distress signal was sent, describing a hostile alien infestation. TGMC, prepare for deployment!",
 	"traits":[{
 		"Baseturf": "/turf/open/floor/plating",
 		"No Parallax": true
